@@ -2,14 +2,10 @@
 
 #define THRESHOLD 8
 #define TCOUNT omp_get_num_threads()
-#define BLOCKW1 15
-#define BLOCKH1 20
-#define BLOCKW2 180
-#define BLOCKH2 1
-// #define SIZE1 8
-#define SIZE2 3
-#define SIZE3 64
-// #define SIZE4 2400
+#define BLOCKW 1
+#define BLOCKH 1
+#define SIZE1 20
+#define SIZE2 20
 
 #if DEBUG
 /** USEFUL DEBUGGING CODE **/
@@ -46,71 +42,56 @@ static inline void take_census(state_t *s) {
 }
 
 /* Recompute all node weights */
-static inline void compute_all_weights(state_t *s) {
+static inline void compute_all_weights(state_t *s, int *otherids, int bound2, int *hubids, int bound1) {
     graph_t *g = s->g;
     double *node_weight = s->node_weight;
     START_ACTIVITY(ACTIVITY_WEIGHTS);
+    int nnode = g->nnode;
+    int* rat_count = s->rat_count;
+    int* neighbor_start = g->neighbor_start;
+    int* neighbor = g->neighbor;
+    double load_factor = s->load_factor;
     
     // outmsg("tcount: %d\n", tcount);
     int tmpid;
     #pragma omp parallel
     {
         #pragma omp for nowait
-        for (tmpid = 0; tmpid < g->bound; tmpid++){
-            int nid = g->hubids[tmpid];
-            int count = s->rat_count[nid];
-            int outdegree = g->neighbor_start[nid+1] - g->neighbor_start[nid] - 1;
-            int *start = &g->neighbor[g->neighbor_start[nid]+1];
+        for (tmpid = 0; tmpid < bound1; tmpid++){
+            int nid = hubids[tmpid];
+            int count = rat_count[nid];
+            int outdegree = neighbor_start[nid+1] - neighbor_start[nid] - 1;
+            int *start = &neighbor[g->neighbor_start[nid]+1];
             int i;
             double sum = 0.0;
             for (i = 0; i < outdegree; i++) {
-                int lcount = s->rat_count[nid];
-                int rcount = s->rat_count[start[i]];
+                int lcount = rat_count[nid];
+                int rcount = rat_count[start[i]];
                 double r = imbalance(lcount, rcount);
                 sum += r;
             }
             double ilf = BASE_ILF + ILF_VARIABILITY * (sum/outdegree);
-            node_weight[nid] = mweight((double) count/s->load_factor, ilf);
+            node_weight[nid] = mweight((double) count/load_factor, ilf);
         
         } 
 
-        int width = g->width;
-        int height = g->height;
-        int blocksizew = BLOCKW1;
-        int blocksizeh = BLOCKH1;
-        int blockw = (width+blocksizew-1)/blocksizew;
-        int blockh = (height+blocksizeh-1)/blocksizeh;
-        int blocknum=blockw*blockh;
-
-        #pragma omp for
-        for (tmpid = 0; tmpid < blocknum; tmpid++){
-
-            int blocki = tmpid % blockw;
-            int blockj = tmpid / blockw;
-            int tmpi, tmpj, tmph, tmpw;
-            for (tmpj=0;tmpj<blocksizeh;tmpj++){
-                for (tmpi=0;tmpi<blocksizew;tmpi++){
-                    tmph = blockj*blocksizeh+tmpj;
-                    tmpw = blocki*blocksizew+tmpi;
-                    int nid = tmph*width+tmpw;
-                    if (tmph < height && tmpw < width && !g->ishub[nid])
-                    {
-                    int count = s->rat_count[nid];
-                    int outdegree = g->neighbor_start[nid+1] - g->neighbor_start[nid] - 1;
-                    int *start = &g->neighbor[g->neighbor_start[nid]+1];
-                    int i;
-                    double sum = 0.0;
-                    for (i = 0; i < outdegree; i++) {
-                        int lcount = s->rat_count[nid];
-                        int rcount = s->rat_count[start[i]];
-                        double r = imbalance(lcount, rcount);
-                        sum += r;
-                    }
-                    double ilf = BASE_ILF + ILF_VARIABILITY * (sum/outdegree);
-                    node_weight[nid] = mweight((double) count/s->load_factor, ilf);
-                    }
-                }
+        #pragma omp for schedule(dynamic, SIZE1)
+        for (tmpid = 0; tmpid < bound2; tmpid++){
+   
+            int nid = otherids[tmpid];
+            int count = rat_count[nid];
+            int outdegree = neighbor_start[nid+1] - neighbor_start[nid] - 1;
+            int *start = &neighbor[g->neighbor_start[nid]+1];
+            int i;
+            double sum = 0.0;
+            for (i = 0; i < outdegree; i++) {
+                int lcount = rat_count[nid];
+                int rcount = rat_count[start[i]];
+                double r = imbalance(lcount, rcount);
+                sum += r;
             }
+            double ilf = BASE_ILF + ILF_VARIABILITY * (sum/outdegree);
+            node_weight[nid] = mweight((double) count/load_factor, ilf);
   
         } 
     }
@@ -119,59 +100,56 @@ static inline void compute_all_weights(state_t *s) {
 }
 
 /* Precompute sums for each region */
-static inline void find_all_sums(state_t *s) {
+static inline void find_all_sums(state_t *s, int *otherids, int bound2, int *hubids, int bound1) {
     graph_t *g = s->g;
     START_ACTIVITY(ACTIVITY_SUMS);
-
+    int* neighbor_start = g->neighbor_start;
+    int* neighbor = g->neighbor;
+    double* node_weight = s->node_weight;
+    double* neighbor_accum_weight=s->neighbor_accum_weight;
+    double* sum_weight = s->sum_weight;
     int tmpid;
+    int nnode = g->nnode;
 
+    // #pragma omp parallel for
+    // for (tmpid = 0; tmpid < nnode; tmpid++) {
+    //     double sum = 0.0;
+    //     int eid;
+    //     int stop = neighbor_start[tmpid+1];
+    //     for (eid = neighbor_start[tmpid]; eid < stop; eid++) {
+    //         sum += node_weight[neighbor[eid]];
+    //         neighbor_accum_weight[eid] = sum;
+    //     }
+    //     sum_weight[tmpid] = sum;
+    // }    
     #pragma omp parallel
     {   
         #pragma omp for nowait
-        for (tmpid = 0; tmpid < g->bound; tmpid++){
-            int nid = g->hubids[tmpid];
+        for (tmpid = 0; tmpid < bound1; tmpid++) {
+            int nid = hubids[tmpid];
             double sum = 0.0;
             int eid;
-            int stop = g->neighbor_start[nid+1];
-            for (eid = g->neighbor_start[nid]; eid < stop; eid++) {
-                sum += s->node_weight[g->neighbor[eid]];
-                s->neighbor_accum_weight[eid] = sum;
+            int stop = neighbor_start[nid+1];
+            for (eid = neighbor_start[nid]; eid < stop; eid++) {
+                sum += node_weight[neighbor[eid]];
+                neighbor_accum_weight[eid] = sum;
             }
-            s->sum_weight[nid] = sum;
+            sum_weight[nid] = sum;
         }
 
-        int width = g->width;
-        int height = g->height;
-        int blocksizew = BLOCKW2;
-        int blocksizeh = BLOCKH2;
-        int blockw = (width+blocksizew-1)/blocksizew;
-        int blockh = (height+blocksizeh-1)/blocksizeh;
-        int blocknum=blockw*blockh;
-
         #pragma omp for schedule(dynamic, SIZE2)
-        for (tmpid = 0; tmpid < blocknum; tmpid++){
+        for (tmpid = 0; tmpid < bound2; tmpid++) {
 
-            int blocki = tmpid % blockw;
-            int blockj = tmpid / blockw;
-            int tmpi, tmpj, tmph, tmpw;
-            for (tmpj=0;tmpj<blocksizeh;tmpj++){
-                for (tmpi=0;tmpi<blocksizew;tmpi++){
-                    tmph = blockj*blocksizeh+tmpj;
-                    tmpw = blocki*blocksizew+tmpi;
-                    int nid = tmph*width+tmpw;
-                    if (tmph < height && tmpw < width && !g->ishub[nid])
-                    {
-                    double sum = 0.0;
-                    int eid;
-                    int stop = g->neighbor_start[nid+1];
-                    for (eid = g->neighbor_start[nid]; eid < stop; eid++) {
-                        sum += s->node_weight[g->neighbor[eid]];
-                        s->neighbor_accum_weight[eid] = sum;
-                    }
-                    s->sum_weight[nid] = sum;
-                    }
-                }
+            int nid = otherids[tmpid];
+            double sum = 0.0;
+            int eid;
+            int stop = neighbor_start[nid+1];
+            for (eid = neighbor_start[nid]; eid < stop; eid++) {
+                sum += node_weight[neighbor[eid]];
+                neighbor_accum_weight[eid] = sum;
             }
+            sum_weight[nid] = sum;
+ 
         }
 
     }
@@ -245,7 +223,6 @@ static inline int fast_next_random_move(state_t *s, int r) {
 }
 
 static inline void compute_all_move(state_t *s, int bstart, int bcount){
-
     int ni, ri;
     graph_t *g = s->g;
     int nnode = g->nnode;
@@ -254,22 +231,20 @@ static inline void compute_all_move(state_t *s, int bstart, int bcount){
     int* delta_rat_count = s->delta_rat_count;
     int* rat_count = s->rat_count;
 
-    #pragma omp parallel for schedule(dynamic, SIZE3)
+    #pragma omp parallel for
     for (ri = 0; ri < bcount; ri++) {
         int rid = ri+bstart;
         int onid = rat_position[rid];
         int nnid = fast_next_random_move(s, rid);
         rat_position[rid] = nnid;
 
-        if (onid!=nnid){
-            #pragma omp atomic
-            delta_rat_count[onid] -= 1;
-            #pragma omp atomic
-            delta_rat_count[nnid] += 1;
-        }
+        #pragma omp atomic
+        delta_rat_count[onid] -= 1;
+        #pragma omp atomic
+        delta_rat_count[nnid] += 1;
     }
 
-    #pragma omp parallel for 
+    #pragma omp parallel for
     for (ni = 0; ni < nnode; ni++) {
         rat_count[ni] += delta_rat_count[ni];
         // Clear count for future use
@@ -281,14 +256,14 @@ static inline void compute_all_move(state_t *s, int bstart, int bcount){
 
 
 /* Process single batch */
-static inline void do_batch(state_t *s, int bstart, int bcount) {
-    find_all_sums(s);
+static inline void do_batch(state_t *s, int bstart, int bcount, int *otherids, int bound2, int *hubids, int bound1) {
+    find_all_sums(s, otherids, bound2, hubids, bound1);
     compute_all_move(s, bstart, bcount);
     /* Update weights */
-    compute_all_weights(s);
+    compute_all_weights(s, otherids, bound2, hubids, bound1);
 }
 
-static void batch_step(state_t *s) {
+static void batch_step(state_t *s, int *otherids, int bound2, int *hubids, int bound1) {
     int rid = 0;
     int bsize = s->batch_size;
     int nrat = s->nrat;
@@ -297,7 +272,7 @@ static void batch_step(state_t *s) {
 	bcount = nrat - rid;
 	if (bcount > bsize)
 	    bcount = bsize;
-	do_batch(s, rid, bcount);
+	do_batch(s, rid, bcount, otherids, bound2, hubids, bound1);
 	rid += bcount;
     }
 }
@@ -311,22 +286,66 @@ double simulate(state_t *s, int count, update_t update_mode, int dinterval, bool
     else if (update_mode == UPDATE_RAT)
 	    s->batch_size = 1;
 
+    // prepare
+    int tcount;
+    #pragma omp parallel
+    {
+        tcount = TCOUNT;
+    }
+    graph_t* g = s->g;
+    int nnode = g->nnode;
+    int* neighbor_start = g->neighbor_start;
+    int* otherids = calloc(nnode,sizeof(int));
+    int* hubids = calloc(nnode,sizeof(int));
+    int bound1=0, bound2=0;
+
+    int blocki, blockj, tmpi, tmpj, tmph, tmpw, tmpid;
+    int width = g->width;
+    int height = g->height;
+    int blocksizew = BLOCKW;
+    int blocksizeh = BLOCKH;
+    int blockw = (width+blocksizew-1)/blocksizew;
+    int blockh = (height+blocksizeh-1)/blocksizeh;
+
+    // outmsg("%d,%d,%d,%d,%d===========\n", width, height,blockw, blockh,nnode);
+    for (blockj=0;blockj<blockh;blockj++){
+        for (blocki=0;blocki<blockw;blocki++){
+            for (tmpj=0;tmpj<blocksizeh;tmpj++){
+                for (tmpi=0;tmpi<blocksizew;tmpi++){
+                    tmph = blockj*blocksizeh+tmpj;
+                    tmpw = blocki*blocksizew+tmpi;
+                    if (tmph>=height || tmpw>=width) break;
+                    tmpid = tmph*width+tmpw;
+                    int outdegree = neighbor_start[tmpid+1] - neighbor_start[tmpid];
+                    if (outdegree > THRESHOLD){
+                        hubids[bound1++] = tmpid;
+                    }else{
+                        otherids[bound2++] = tmpid;
+                    }
+                }
+            }
+        }
+    }
+    
+    
     /* Compute and show initial state */
     bool show_counts = true;
     double start = currentSeconds();
     take_census(s);
-    compute_all_weights(s);
+    compute_all_weights(s, otherids, bound2, hubids, bound1);
     if (display)
 	    show(s, show_counts);
 
     for (i = 0; i < count; i++) {
-        batch_step(s);
+        batch_step(s, otherids, bound2, hubids, bound1);
         if (display) {
             show_counts = (((i+1) % dinterval) == 0) || (i == count-1);
             show(s, show_counts);
         }
     }
 
+    free(hubids);
+    free(otherids);
     double delta = currentSeconds() - start;
     done();
     return delta;

@@ -4,6 +4,8 @@
 
 #include "crun.h"
 
+#define THRESHOLD 8
+
 graph_t *new_graph(int width, int height, int nedge) {
     bool ok = true;
     graph_t *g = malloc(sizeof(graph_t));
@@ -14,6 +16,11 @@ graph_t *new_graph(int width, int height, int nedge) {
     g->nedge = nedge;
     g->width = width;
     g->height = height;
+
+	g->bound = 0;
+	g->hubids = calloc(nnode,sizeof(int));
+	g->ishub = calloc(nnode,sizeof(bool));
+
     g->neighbor = calloc(nnode + nedge, sizeof(int));
     ok = ok && g->neighbor != NULL;
     g->neighbor_start = calloc(nnode + 1, sizeof(int));
@@ -30,6 +37,8 @@ graph_t *new_graph(int width, int height, int nedge) {
 void free_graph(graph_t *g) {
     free(g->neighbor);
     free(g->neighbor_start);
+	free(g->ishub);
+	free(g->hubids);
     free(g);
 }
 
@@ -121,6 +130,20 @@ graph_t *read_graph(FILE *infile) {
 	g->neighbor[eid++] = nid;
     }
     g->neighbor_start[nnode] = eid;
+
+
+	int bound =0;
+    for (nid=0;nid<nnode;nid++){
+        int outdegree = g->neighbor_start[nid+1] - g->neighbor_start[nid];
+        if (outdegree > THRESHOLD){
+            g->ishub[nid] = true;
+            g->hubids[bound++] = nid;
+        }else{
+            g->ishub[nid] = false;
+        }
+    }
+	g->bound=bound;
+
 #if DEBUG
     outmsg("Loaded graph with %d nodes and %d edges\n", nnode, nedge);
     show_graph(g);

@@ -1,0 +1,410 @@
+#include "crun.h"
+#include <string.h>
+
+#define THRESHOLD 8
+#define TCOUNT 12
+#if DEBUG
+/** USEFUL DEBUGGING CODE **/
+static void show_weights(state_t *s) {
+    int nid, eid;
+    graph_t *g = s->g;
+    int nnode = g->nnode;
+    int *neighbor = g->neighbor;
+    outmsg("Weights\n");
+    for (nid = 0; nid < nnode; nid++) {
+	int eid_start = g->neighbor_start[nid];
+	int eid_end  = g->neighbor_start[nid+1];
+	outmsg("%d: [sum = %.3f]", nid, compute_sum_weight(s, nid));
+	for (eid = eid_start; eid < eid_end; eid++) {
+	    outmsg(" %.3f", compute_weight(s, neighbor[eid]));
+	}
+	outmsg("\n");
+    }
+}
+#endif
+
+/*
+  Compute all initial node counts according to rat population.
+  Assumes that rat position array is initially zeroed out.
+ */
+static inline void take_census(state_t *s) {
+    int *rat_position = s->rat_position;
+    int *rat_count = s->rat_count;
+    int nrat = s->nrat;
+    int ri;
+    for (ri = 0; ri < nrat; ri++) {
+	rat_count[rat_position[ri]]++;
+    }
+}
+
+/* Recompute all node weights */
+static inline void compute_all_weights(state_t *s, int* hubids, int* otherids, int cnt1, int cnt2, int* origin, double *imbalancebuffer, bool *flag, double *weightbuffer) {
+
+    START_ACTIVITY(ACTIVITY_WEIGHTS);
+    graph_t *g = s->g;
+    double *node_weight = s->node_weight;
+    int* rat_count = s->rat_count;
+    int* neighbor_start = g->neighbor_start;
+    int* neighbor = g->neighbor;
+    double load_factor = s->load_factor;
+    int tmpid;
+    int nedge = g->nedge;
+    int nnode = g->nnode;
+    
+    int tcount = TCOUNT;
+    memset(weightbuffer, 0, sizeof(double)*tcount*nnode);
+    // outmsg("tcount: %d\n", tcount);
+
+    #pragma omp parallel
+    {
+        #pragma omp for
+        for (tmpid=0;tmpid<nedge+nnode;tmpid++){
+            int l = origin[tmpid];
+            int r = neighbor[tmpid];
+            int tid = omp_get_thread_num();
+            int lcount = rat_count[l];
+            int rcount = rat_count[r];
+            weightbuffer[tid*nnode+l] += imbalance(lcount, rcount);
+        }
+
+        #pragma omp for
+        for (tmpid=0;tmpid<nnode;tmpid++){
+            int t;
+            double sum=0.0;
+            
+            for (t=0;t<tcount;t++){
+                sum+=weightbuffer[t*nnode+tmpid];
+            }
+            int count = rat_count[tmpid];
+            int outdegree = neighbor_start[tmpid+1] - neighbor_start[tmpid] - 1;
+            double ilf = BASE_ILF + ILF_VARIABILITY * (sum/outdegree);
+            node_weight[tmpid] = mweight((double) count/load_factor, ilf);
+        }
+
+    }
+    // outmsg("finished!!!!");
+    // #pragma omp parallel for
+    // for (tmpid = 0; tmpid < nedge+nnode; tmpid++){
+    //     int l = origin[tmpid];
+    //     int r = neighbor[tmpid];
+    //     int lcount = rat_count[l];
+    //     int rcount = rat_count[r];
+    //     imbalancebuffer[tmpid] = imbalance(lcount, rcount);
+    // }
+
+    // #pragma omp parallel for
+    // for (tmpid = 0; tmpid < nnode; tmpid++){
+    //     // int nid = hubids[tmpid];
+    //     int nid = tmpid;
+    //     int count = rat_count[nid];
+    //     int outdegree = neighbor_start[nid+1] - neighbor_start[nid] - 1;
+        
+    //     int start = neighbor_start[nid]+1;
+    //     int i;
+    //     double sum = 0.0;
+    //     for (i=0;i<outdegree;i++){
+    //         sum+=imbalancebuffer[start+i];
+    //     }
+
+    //     double ilf = BASE_ILF + ILF_VARIABILITY * (sum/outdegree);
+    //     node_weight[nid] = mweight((double) count/load_factor, ilf);
+    
+    // }    
+
+    // #pragma omp parallel for
+    // for (tmpid = 0; tmpid < cnt2; tmpid++){
+    //     int nid = otherids[tmpid];
+    //     // if (flag[nid]){
+    //         int count = rat_count[nid];
+    //         int outdegree = neighbor_start[nid+1] - neighbor_start[nid] - 1;
+            
+    //         int start = neighbor_start[nid]+1;
+    //         int i;
+    //         double sum = 0.0;
+    //         for (i=0;i<outdegree;i++){
+    //             sum+=imbalancebuffer[start+i];
+    //         }
+
+    //         // int *start = &neighbor[neighbor_start[nid]+1];
+    //         // int i;
+    //         // double sum = 0.0;
+    //         // for (i = 0; i < outdegree; i++) {
+    //         //     int lcount = rat_count[nid];
+    //         //     int rcount = rat_count[start[i]];
+    //         //     double r = imbalance(lcount, rcount);
+    //         //     sum += r;
+    //         // }
+    //         double ilf = BASE_ILF + ILF_VARIABILITY * (sum/outdegree);
+    //         node_weight[nid] = mweight((double) count/load_factor, ilf);
+    //     // }
+
+    // }  
+    FINISH_ACTIVITY(ACTIVITY_WEIGHTS);
+}
+
+
+/* Precompute sums for each region */
+static inline void find_all_sums(state_t *s, int *hubids, int *otherids, int cnt1, int cnt2) {
+    
+    START_ACTIVITY(ACTIVITY_SUMS);
+    graph_t *g = s->g;
+    int* neighbor_start = g->neighbor_start;
+    int* neighbor = g->neighbor;
+    double* node_weight = s->node_weight;
+    double* neighbor_accum_weight=s->neighbor_accum_weight;
+    double* sum_weight = s->sum_weight;
+    int nid;
+
+    int cnt = g->nnode;
+    #pragma omp parallel for
+    for (nid = 0; nid < cnt; nid++) {
+        double sum = 0.0;
+        int eid;
+        int stop = neighbor_start[nid+1];
+        for (eid = neighbor_start[nid]; eid < stop; eid++) {
+            sum += node_weight[neighbor[eid]];
+            neighbor_accum_weight[eid] = sum;
+        }
+        sum_weight[nid] = sum;
+    }
+
+    // int tmpid;
+    // #pragma omp parallel for
+    // for (tmpid = 0; tmpid < cnt1; tmpid++) {
+    //     nid = hubids[tmpid];
+    //     double sum = 0.0;
+    //     int eid;
+    //     int stop = neighbor_start[nid+1];
+    //     for (eid = neighbor_start[nid]; eid < stop; eid++) {
+    //         sum += node_weight[neighbor[eid]];
+    //         neighbor_accum_weight[eid] = sum;
+    //     }
+    //     sum_weight[nid] = sum;
+    // }
+
+    // #pragma omp parallel for
+    // for (tmpid = 0; tmpid<cnt2; tmpid++){
+    //     nid = otherids[tmpid];
+    //     double sum = 0.0;
+    //     int eid;
+    //     int stop = neighbor_start[nid+1];
+    //     for (eid = neighbor_start[nid]; eid < stop; eid++) {
+    //         sum += node_weight[neighbor[eid]];
+    //         neighbor_accum_weight[eid] = sum;
+    //     }
+    //     sum_weight[nid] = sum;        
+    // }
+
+    FINISH_ACTIVITY(ACTIVITY_SUMS);
+}
+
+/*
+  Given list of increasing numbers, and target number,
+  find index of first one where target is less than list value
+*/
+
+/*
+  Linear search
+ */
+static inline int locate_value_linear(double target, double *list, int len) {
+    int i;
+    for (i = 0; i < len; i++)
+	if (target < list[i])
+	    return i;
+    /* Shouldn't get here */
+    return -1;
+}
+/*
+  Binary search down to threshold, and then linear
+ */
+static inline int locate_value(double target, double *list, int len) {
+    int left = 0;
+    int right = len-1;
+    while (left < right) {
+	if (right-left+1 < BINARY_THRESHOLD)
+	    return left + locate_value_linear(target, list+left, right-left+1);
+	int mid = left + (right-left)/2;
+	if (target < list[mid])
+	    right = mid;
+	else
+	    left = mid+1;
+    }
+    return right;
+}
+
+
+/*
+  This function assumes that node weights are already valid,
+  and that have already computed sum of weights for each node,
+  as well as cumulative weight for each neighbor
+  Given list of integer counts, generate real-valued weights
+  and use these to flip random coin returning value between 0 and len-1
+*/
+static inline int fast_next_random_move(state_t *s, int r) {
+    int nid = s->rat_position[r];
+    graph_t *g = s->g;
+    random_t *seedp = &s->rat_seed[r];
+    /* Guaranteed that have computed sum of weights */
+    double tsum = s->sum_weight[nid];    
+    double val = next_random_float(seedp, tsum);
+
+    int estart = g->neighbor_start[nid];
+    int elen = g->neighbor_start[nid+1] - estart;
+    int offset = locate_value(val, &s->neighbor_accum_weight[estart], elen);
+#if DEBUG
+    if (offset < 0) {
+	/* Shouldn't get here */
+	outmsg("Internal error.  fast_next_random_move.  Didn't find valid move.  Target = %.2f/%.2f.\n",
+	       val, tsum);
+	return 0;
+    }
+#endif
+    return g->neighbor[estart + offset];
+}
+
+static inline void compute_batch_move(state_t *s, int bstart, int bcount, int *movebuffer, bool *flag){
+    
+    START_ACTIVITY(ACTIVITY_NEXT);   
+    int* rat_count = s->rat_count;
+    int* rat_position = s->rat_position;
+    int ri;
+
+    memset(flag, 0, sizeof(bool)*(s->g)->nnode);
+
+    #pragma omp parallel for
+    for (ri = 0; ri < bcount; ri++) {
+        int rid = ri+bstart;
+        int nnid = fast_next_random_move(s, rid);
+        movebuffer[ri]=nnid;
+    }
+
+    for (ri = 0; ri < bcount; ri++) {
+        int rid = ri+bstart;
+        int onid = rat_position[rid];
+        int nnid = movebuffer[ri];
+        rat_count[nnid]+=1;
+        rat_count[onid]-=1;
+        rat_position[rid] = nnid;
+        flag[nnid]=true;
+        flag[onid]=true;
+    }
+    FINISH_ACTIVITY(ACTIVITY_NEXT);
+}
+
+
+/* Process single batch */
+static inline void do_batch(state_t *s, int bstart, int bcount, int* movebuffer,
+                            int* hubids, int* otherids, int cnt1, int cnt2, int *origin, double *imbalancebuffer, bool *flag, double *weightbuffer) {
+    
+    // update sum
+    find_all_sums(s, hubids, otherids, cnt1, cnt2);
+
+    // update move
+    compute_batch_move(s, bstart, bcount, movebuffer, flag);
+
+    /* Update weights */
+    compute_all_weights(s, hubids, otherids, cnt1, cnt2, origin, imbalancebuffer, flag, weightbuffer);
+}
+
+static void batch_step(state_t *s, int* movebuffer, int* hubids, int* otherids, int cnt1, int cnt2, int* origin, double* imbalancebuffer, bool *flag, double *weightbuffer) {
+    int rid = 0;
+    int bsize = s->batch_size;
+    int nrat = s->nrat;
+    int bcount;
+    while (rid < nrat) {
+        bcount = nrat - rid;
+        if (bcount > bsize)
+            bcount = bsize;
+        do_batch(s, rid, bcount, movebuffer, hubids, otherids, cnt1, cnt2, origin, imbalancebuffer, flag, weightbuffer);
+        rid += bcount;
+    }
+}
+
+
+double simulate(state_t *s, int count, update_t update_mode, int dinterval, bool display) {
+    
+    /* Adjust bath size if not in bath mode */
+    if (update_mode == UPDATE_SYNCHRONOUS)
+	s->batch_size = s->nrat;
+    else if (update_mode == UPDATE_RAT)
+	s->batch_size = 1;
+
+
+    
+
+    // split nodes
+    graph_t *g = s->g;
+    int nnode = g->nnode;
+    bool* flag = calloc(nnode, sizeof(bool));
+    int ni;
+    #pragma omp parallel for
+    for (ni=0;ni<nnode;ni++){
+        int outdegree = g->neighbor_start[ni+1] - g->neighbor_start[ni] - 1;
+        flag[ni] = outdegree > THRESHOLD;
+    }
+
+    int* hubids = calloc(nnode,sizeof(int));
+    int* otherids = calloc(nnode, sizeof(int));
+    int cnt1=0, cnt2=0;
+    for (ni=0;ni<nnode;ni++){
+        if (flag[ni]){
+            hubids[cnt1++]=ni;
+        }else{
+            otherids[cnt2++]=ni;
+        }
+    }
+
+    int tcount = TCOUNT;
+    double* weightbuffer = calloc(tcount*nnode, sizeof(double));
+
+
+    // imbalance buffer
+    int nedge = g->nedge;
+    int* origin = calloc(nnode+nedge, sizeof(int));
+    double* imbalancebuffer = calloc(nnode+nedge, sizeof(double));
+    int* neighbor_start = g->neighbor_start;
+    #pragma omp parallel for 
+    for (ni = 0; ni < nnode; ni++){
+        int outdegree = neighbor_start[ni+1] - neighbor_start[ni];
+        int *start = &origin[neighbor_start[ni]];
+        int i;
+        for (i = 0; i < outdegree; i++) {
+            start[i] = ni;
+        }
+    }
+
+    // initial flag
+    #pragma omp parallel for
+    for (ni=0; ni<nnode; ni++){
+        flag[ni] = true;
+    }
+
+    /* Compute and show initial state */
+    bool show_counts = true;
+    double start = currentSeconds();
+    
+    take_census(s);
+    compute_all_weights(s, hubids, otherids, cnt1, cnt2, origin, imbalancebuffer, flag, weightbuffer);
+    if (display) show(s, show_counts);
+    int* movebuffer = calloc(s->batch_size, sizeof(int));
+    int i;
+    for (i = 0; i < count; i++) {
+        batch_step(s, movebuffer, hubids, otherids, cnt1, cnt2, origin, imbalancebuffer, flag, weightbuffer);
+        if (display) {
+            show_counts = (((i+1) % dinterval) == 0) || (i == count-1);
+            show(s, show_counts);
+        }
+    }
+
+    free(movebuffer);
+    free(flag);
+    free(hubids);
+    free(otherids);
+    free(imbalancebuffer);
+    free(origin);
+    free(weightbuffer);
+
+    double delta = currentSeconds() - start;
+    done();
+    return delta;
+}

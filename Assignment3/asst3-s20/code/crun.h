@@ -83,6 +83,11 @@ typedef struct {
     int *neighbor_start;
     // Ideal load factor for each node.  (This value gets read from file but is not used.)  Length=N
     double *ilf;
+
+    int bound;
+    bool *ishub;
+    int *hubids;
+
 } graph_t;
 
 /* Representation of simulation state */
