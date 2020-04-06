@@ -1,0 +1,2365 @@
++++++++++++++++++ Benchmark hlbrtAx01-step050-seed618.txt
+Run #1:Running './crun-seq -g ./data/g-160x160-hlbrtA.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 150400 edges, and 256 regions, partitioned into 0 zones 
+Loaded 1024000 rats
+Running with 1 processes.
+50 steps, 1024000 rats, 11.257 seconds
+Run #2:Running './crun-seq -g ./data/g-160x160-hlbrtA.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 150400 edges, and 256 regions, partitioned into 0 zones 
+Loaded 1024000 rats
+Running with 1 processes.
+50 steps, 1024000 rats, 11.261 seconds
+Run #3:Running './crun-seq -g ./data/g-160x160-hlbrtA.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 150400 edges, and 256 regions, partitioned into 0 zones 
+Loaded 1024000 rats
+Running with 1 processes.
+50 steps, 1024000 rats, 11.259 seconds
+Run #1:Running './crun-soln-latedays -g ./data/g-160x160-hlbrtA.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 150400 edges, and 256 regions, partitioned into 1 zones 
+Loaded 1024000 rats
+Running with 1 processes.
+50 steps, 1024000 rats, 11.664 seconds
+Run #2:Running './crun-soln-latedays -g ./data/g-160x160-hlbrtA.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 150400 edges, and 256 regions, partitioned into 1 zones 
+Loaded 1024000 rats
+Running with 1 processes.
+50 steps, 1024000 rats, 11.726 seconds
+Run #3:Running './crun-soln-latedays -g ./data/g-160x160-hlbrtA.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 150400 edges, and 256 regions, partitioned into 1 zones 
+Loaded 1024000 rats
+Running with 1 processes.
+50 steps, 1024000 rats, 11.654 seconds
++++++++++++++++++ Benchmark hlbrtBx01-step050-seed618.txt
+Run #1:Running './crun-seq -g ./data/g-160x160-hlbrtB.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 193834 edges, and 100 regions, partitioned into 0 zones 
+Loaded 1024000 rats
+Running with 1 processes.
+50 steps, 1024000 rats, 13.369 seconds
+Run #2:Running './crun-seq -g ./data/g-160x160-hlbrtB.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 193834 edges, and 100 regions, partitioned into 0 zones 
+Loaded 1024000 rats
+Running with 1 processes.
+50 steps, 1024000 rats, 13.288 seconds
+Run #3:Running './crun-seq -g ./data/g-160x160-hlbrtB.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 193834 edges, and 100 regions, partitioned into 0 zones 
+Loaded 1024000 rats
+Running with 1 processes.
+50 steps, 1024000 rats, 13.263 seconds
+Run #1:Running './crun-soln-latedays -g ./data/g-160x160-hlbrtB.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 193834 edges, and 100 regions, partitioned into 1 zones 
+Loaded 1024000 rats
+Running with 1 processes.
+50 steps, 1024000 rats, 13.649 seconds
+Run #2:Running './crun-soln-latedays -g ./data/g-160x160-hlbrtB.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 193834 edges, and 100 regions, partitioned into 1 zones 
+Loaded 1024000 rats
+Running with 1 processes.
+50 steps, 1024000 rats, 13.657 seconds
+Run #3:Running './crun-soln-latedays -g ./data/g-160x160-hlbrtB.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 193834 edges, and 100 regions, partitioned into 1 zones 
+Loaded 1024000 rats
+Running with 1 processes.
+50 steps, 1024000 rats, 13.654 seconds
++++++++++++++++++ Benchmark hlbrtCx01-step050-seed618.txt
+Run #1:Running './crun-seq -g ./data/g-160x160-hlbrtC.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 203606 edges, and 150 regions, partitioned into 0 zones 
+Loaded 1024000 rats
+Running with 1 processes.
+50 steps, 1024000 rats, 13.935 seconds
+Run #2:Running './crun-seq -g ./data/g-160x160-hlbrtC.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 203606 edges, and 150 regions, partitioned into 0 zones 
+Loaded 1024000 rats
+Running with 1 processes.
+50 steps, 1024000 rats, 13.712 seconds
+Run #3:Running './crun-seq -g ./data/g-160x160-hlbrtC.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 203606 edges, and 150 regions, partitioned into 0 zones 
+Loaded 1024000 rats
+Running with 1 processes.
+50 steps, 1024000 rats, 13.651 seconds
+Run #1:Running './crun-soln-latedays -g ./data/g-160x160-hlbrtC.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 203606 edges, and 150 regions, partitioned into 1 zones 
+Loaded 1024000 rats
+Running with 1 processes.
+50 steps, 1024000 rats, 14.039 seconds
+Run #2:Running './crun-soln-latedays -g ./data/g-160x160-hlbrtC.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 203606 edges, and 150 regions, partitioned into 1 zones 
+Loaded 1024000 rats
+Running with 1 processes.
+50 steps, 1024000 rats, 14.053 seconds
+Run #3:Running './crun-soln-latedays -g ./data/g-160x160-hlbrtC.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 203606 edges, and 150 regions, partitioned into 1 zones 
+Loaded 1024000 rats
+Running with 1 processes.
+50 steps, 1024000 rats, 14.042 seconds
++++++++++++++++++ Benchmark hlbrtDx01-step050-seed618.txt
+Run #1:Running './crun-seq -g ./data/g-160x160-hlbrtD.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 193572 edges, and 80 regions, partitioned into 0 zones 
+Loaded 1024000 rats
+Running with 1 processes.
+50 steps, 1024000 rats, 13.262 seconds
+Run #2:Running './crun-seq -g ./data/g-160x160-hlbrtD.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 193572 edges, and 80 regions, partitioned into 0 zones 
+Loaded 1024000 rats
+Running with 1 processes.
+50 steps, 1024000 rats, 13.381 seconds
+Run #3:Running './crun-seq -g ./data/g-160x160-hlbrtD.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 193572 edges, and 80 regions, partitioned into 0 zones 
+Loaded 1024000 rats
+Running with 1 processes.
+50 steps, 1024000 rats, 13.274 seconds
+Run #1:Running './crun-soln-latedays -g ./data/g-160x160-hlbrtD.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 193572 edges, and 80 regions, partitioned into 1 zones 
+Loaded 1024000 rats
+Running with 1 processes.
+50 steps, 1024000 rats, 13.653 seconds
+Run #2:Running './crun-soln-latedays -g ./data/g-160x160-hlbrtD.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 193572 edges, and 80 regions, partitioned into 1 zones 
+Loaded 1024000 rats
+Running with 1 processes.
+50 steps, 1024000 rats, 13.729 seconds
+Run #3:Running './crun-soln-latedays -g ./data/g-160x160-hlbrtD.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 193572 edges, and 80 regions, partitioned into 1 zones 
+Loaded 1024000 rats
+Running with 1 processes.
+50 steps, 1024000 rats, 13.644 seconds
++++++++++++++++++ Benchmark hlbrtEx01-step050-seed618.txt
+Run #1:Running './crun-seq -g ./data/g-160x160-hlbrtE.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 199188 edges, and 74 regions, partitioned into 0 zones 
+Loaded 1024000 rats
+Running with 1 processes.
+50 steps, 1024000 rats, 13.644 seconds
+Run #2:Running './crun-seq -g ./data/g-160x160-hlbrtE.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 199188 edges, and 74 regions, partitioned into 0 zones 
+Loaded 1024000 rats
+Running with 1 processes.
+50 steps, 1024000 rats, 13.861 seconds
+Run #3:Running './crun-seq -g ./data/g-160x160-hlbrtE.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 199188 edges, and 74 regions, partitioned into 0 zones 
+Loaded 1024000 rats
+Running with 1 processes.
+50 steps, 1024000 rats, 13.482 seconds
+Run #1:Running './crun-soln-latedays -g ./data/g-160x160-hlbrtE.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 199188 edges, and 74 regions, partitioned into 1 zones 
+Loaded 1024000 rats
+Running with 1 processes.
+50 steps, 1024000 rats, 13.973 seconds
+Run #2:Running './crun-soln-latedays -g ./data/g-160x160-hlbrtE.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 199188 edges, and 74 regions, partitioned into 1 zones 
+Loaded 1024000 rats
+Running with 1 processes.
+50 steps, 1024000 rats, 13.872 seconds
+Run #3:Running './crun-soln-latedays -g ./data/g-160x160-hlbrtE.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 199188 edges, and 74 regions, partitioned into 1 zones 
+Loaded 1024000 rats
+Running with 1 processes.
+50 steps, 1024000 rats, 13.860 seconds
++++++++++++++++++ Benchmark hlbrtFx01-step050-seed618.txt
+Run #1:Running './crun-seq -g ./data/g-160x160-hlbrtF.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 192370 edges, and 61 regions, partitioned into 0 zones 
+Loaded 1024000 rats
+Running with 1 processes.
+50 steps, 1024000 rats, 13.336 seconds
+Run #2:Running './crun-seq -g ./data/g-160x160-hlbrtF.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 192370 edges, and 61 regions, partitioned into 0 zones 
+Loaded 1024000 rats
+Running with 1 processes.
+50 steps, 1024000 rats, 13.221 seconds
+Run #3:Running './crun-seq -g ./data/g-160x160-hlbrtF.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 192370 edges, and 61 regions, partitioned into 0 zones 
+Loaded 1024000 rats
+Running with 1 processes.
+50 steps, 1024000 rats, 13.182 seconds
+Run #1:Running './crun-soln-latedays -g ./data/g-160x160-hlbrtF.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 192370 edges, and 61 regions, partitioned into 1 zones 
+Loaded 1024000 rats
+Running with 1 processes.
+50 steps, 1024000 rats, 13.566 seconds
+Run #2:Running './crun-soln-latedays -g ./data/g-160x160-hlbrtF.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 192370 edges, and 61 regions, partitioned into 1 zones 
+Loaded 1024000 rats
+Running with 1 processes.
+50 steps, 1024000 rats, 13.581 seconds
+Run #3:Running './crun-soln-latedays -g ./data/g-160x160-hlbrtF.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 192370 edges, and 61 regions, partitioned into 1 zones 
+Loaded 1024000 rats
+Running with 1 processes.
+50 steps, 1024000 rats, 13.685 seconds
++++++++++++++++++
+Name	steps	procs	secs	NPM	BNPM	Ratio	Pts
+hlbrtA	50	1	11.4	223.2	232.2	1.04	8.0
+hlbrtB	50	1	13.4	262.6	271.3	1.03	8.0
+hlbrtC	50	1	13.8	270.2	279.0	1.03	8.0
+hlbrtD	50	1	13.4	262.5	271.2	1.03	8.0
+hlbrtE	50	1	13.7	266.9	275.5	1.03	8.0
+hlbrtF	50	1	13.4	260.9	269.7	1.03	8.0
+AVG:				257.7	266.5
+TOTAL:							48.0
+Test time for 1 processes = 485.3 secs.
++++++++++++++++++ Benchmark hlbrtAx02-step050-seed618.txt
+Run #1:Running 'mpirun -np 2 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtA.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 150400 edges, and 256 regions, partitioned into 2 zones 
+Loaded 1024000 rats
+Running with 2 processes.
+50 steps, 1024000 rats, 6.374 seconds
+Run #2:Running 'mpirun -np 2 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtA.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 150400 edges, and 256 regions, partitioned into 2 zones 
+Loaded 1024000 rats
+Running with 2 processes.
+50 steps, 1024000 rats, 6.378 seconds
+Run #3:Running 'mpirun -np 2 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtA.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 150400 edges, and 256 regions, partitioned into 2 zones 
+Loaded 1024000 rats
+Running with 2 processes.
+50 steps, 1024000 rats, 6.459 seconds
+Run #1:Running 'mpirun -np 2 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtA.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 150400 edges, and 256 regions, partitioned into 2 zones 
+Loaded 1024000 rats
+Running with 2 processes.
+50 steps, 1024000 rats, 6.515 seconds
+Run #2:Running 'mpirun -np 2 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtA.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 150400 edges, and 256 regions, partitioned into 2 zones 
+Loaded 1024000 rats
+Running with 2 processes.
+50 steps, 1024000 rats, 6.297 seconds
+Run #3:Running 'mpirun -np 2 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtA.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 150400 edges, and 256 regions, partitioned into 2 zones 
+Loaded 1024000 rats
+Running with 2 processes.
+50 steps, 1024000 rats, 6.341 seconds
++++++++++++++++++ Benchmark hlbrtBx02-step050-seed618.txt
+Run #1:Running 'mpirun -np 2 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtB.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 193834 edges, and 100 regions, partitioned into 2 zones 
+Loaded 1024000 rats
+Running with 2 processes.
+50 steps, 1024000 rats, 7.464 seconds
+Run #2:Running 'mpirun -np 2 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtB.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 193834 edges, and 100 regions, partitioned into 2 zones 
+Loaded 1024000 rats
+Running with 2 processes.
+50 steps, 1024000 rats, 7.377 seconds
+Run #3:Running 'mpirun -np 2 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtB.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 193834 edges, and 100 regions, partitioned into 2 zones 
+Loaded 1024000 rats
+Running with 2 processes.
+50 steps, 1024000 rats, 7.346 seconds
+Run #1:Running 'mpirun -np 2 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtB.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 193834 edges, and 100 regions, partitioned into 2 zones 
+Loaded 1024000 rats
+Running with 2 processes.
+50 steps, 1024000 rats, 7.306 seconds
+Run #2:Running 'mpirun -np 2 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtB.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 193834 edges, and 100 regions, partitioned into 2 zones 
+Loaded 1024000 rats
+Running with 2 processes.
+50 steps, 1024000 rats, 7.372 seconds
+Run #3:Running 'mpirun -np 2 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtB.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 193834 edges, and 100 regions, partitioned into 2 zones 
+Loaded 1024000 rats
+Running with 2 processes.
+50 steps, 1024000 rats, 7.355 seconds
++++++++++++++++++ Benchmark hlbrtCx02-step050-seed618.txt
+Run #1:Running 'mpirun -np 2 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtC.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 203606 edges, and 150 regions, partitioned into 2 zones 
+Loaded 1024000 rats
+Running with 2 processes.
+50 steps, 1024000 rats, 7.401 seconds
+Run #2:Running 'mpirun -np 2 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtC.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 203606 edges, and 150 regions, partitioned into 2 zones 
+Loaded 1024000 rats
+Running with 2 processes.
+50 steps, 1024000 rats, 7.440 seconds
+Run #3:Running 'mpirun -np 2 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtC.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 203606 edges, and 150 regions, partitioned into 2 zones 
+Loaded 1024000 rats
+Running with 2 processes.
+50 steps, 1024000 rats, 7.402 seconds
+Run #1:Running 'mpirun -np 2 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtC.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 203606 edges, and 150 regions, partitioned into 2 zones 
+Loaded 1024000 rats
+Running with 2 processes.
+50 steps, 1024000 rats, 7.395 seconds
+Run #2:Running 'mpirun -np 2 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtC.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 203606 edges, and 150 regions, partitioned into 2 zones 
+Loaded 1024000 rats
+Running with 2 processes.
+50 steps, 1024000 rats, 7.435 seconds
+Run #3:Running 'mpirun -np 2 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtC.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 203606 edges, and 150 regions, partitioned into 2 zones 
+Loaded 1024000 rats
+Running with 2 processes.
+50 steps, 1024000 rats, 7.368 seconds
++++++++++++++++++ Benchmark hlbrtDx02-step050-seed618.txt
+Run #1:Running 'mpirun -np 2 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtD.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 193572 edges, and 80 regions, partitioned into 2 zones 
+Loaded 1024000 rats
+Running with 2 processes.
+50 steps, 1024000 rats, 7.643 seconds
+Run #2:Running 'mpirun -np 2 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtD.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 193572 edges, and 80 regions, partitioned into 2 zones 
+Loaded 1024000 rats
+Running with 2 processes.
+50 steps, 1024000 rats, 7.621 seconds
+Run #3:Running 'mpirun -np 2 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtD.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 193572 edges, and 80 regions, partitioned into 2 zones 
+Loaded 1024000 rats
+Running with 2 processes.
+50 steps, 1024000 rats, 7.566 seconds
+Run #1:Running 'mpirun -np 2 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtD.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 193572 edges, and 80 regions, partitioned into 2 zones 
+Loaded 1024000 rats
+Running with 2 processes.
+50 steps, 1024000 rats, 7.433 seconds
+Run #2:Running 'mpirun -np 2 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtD.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 193572 edges, and 80 regions, partitioned into 2 zones 
+Loaded 1024000 rats
+Running with 2 processes.
+50 steps, 1024000 rats, 7.499 seconds
+Run #3:Running 'mpirun -np 2 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtD.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 193572 edges, and 80 regions, partitioned into 2 zones 
+Loaded 1024000 rats
+Running with 2 processes.
+50 steps, 1024000 rats, 7.475 seconds
++++++++++++++++++ Benchmark hlbrtEx02-step050-seed618.txt
+Run #1:Running 'mpirun -np 2 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtE.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 199188 edges, and 74 regions, partitioned into 2 zones 
+Loaded 1024000 rats
+Running with 2 processes.
+50 steps, 1024000 rats, 7.579 seconds
+Run #2:Running 'mpirun -np 2 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtE.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 199188 edges, and 74 regions, partitioned into 2 zones 
+Loaded 1024000 rats
+Running with 2 processes.
+50 steps, 1024000 rats, 7.540 seconds
+Run #3:Running 'mpirun -np 2 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtE.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 199188 edges, and 74 regions, partitioned into 2 zones 
+Loaded 1024000 rats
+Running with 2 processes.
+50 steps, 1024000 rats, 7.495 seconds
+Run #1:Running 'mpirun -np 2 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtE.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 199188 edges, and 74 regions, partitioned into 2 zones 
+Loaded 1024000 rats
+Running with 2 processes.
+50 steps, 1024000 rats, 7.402 seconds
+Run #2:Running 'mpirun -np 2 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtE.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 199188 edges, and 74 regions, partitioned into 2 zones 
+Loaded 1024000 rats
+Running with 2 processes.
+50 steps, 1024000 rats, 7.382 seconds
+Run #3:Running 'mpirun -np 2 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtE.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 199188 edges, and 74 regions, partitioned into 2 zones 
+Loaded 1024000 rats
+Running with 2 processes.
+50 steps, 1024000 rats, 7.412 seconds
++++++++++++++++++ Benchmark hlbrtFx02-step050-seed618.txt
+Run #1:Running 'mpirun -np 2 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtF.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 192370 edges, and 61 regions, partitioned into 2 zones 
+Loaded 1024000 rats
+Running with 2 processes.
+50 steps, 1024000 rats, 7.577 seconds
+Run #2:Running 'mpirun -np 2 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtF.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 192370 edges, and 61 regions, partitioned into 2 zones 
+Loaded 1024000 rats
+Running with 2 processes.
+50 steps, 1024000 rats, 7.350 seconds
+Run #3:Running 'mpirun -np 2 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtF.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 192370 edges, and 61 regions, partitioned into 2 zones 
+Loaded 1024000 rats
+Running with 2 processes.
+50 steps, 1024000 rats, 7.373 seconds
+Run #1:Running 'mpirun -np 2 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtF.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 192370 edges, and 61 regions, partitioned into 2 zones 
+Loaded 1024000 rats
+Running with 2 processes.
+50 steps, 1024000 rats, 7.278 seconds
+Run #2:Running 'mpirun -np 2 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtF.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 192370 edges, and 61 regions, partitioned into 2 zones 
+Loaded 1024000 rats
+Running with 2 processes.
+50 steps, 1024000 rats, 7.401 seconds
+Run #3:Running 'mpirun -np 2 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtF.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 192370 edges, and 61 regions, partitioned into 2 zones 
+Loaded 1024000 rats
+Running with 2 processes.
+50 steps, 1024000 rats, 7.340 seconds
++++++++++++++++++
+Name	steps	procs	secs	NPM	BNPM	Ratio	Pts
+hlbrtA	50	2	7.6	148.7	147.3	0.99	8.0
+hlbrtB	50	2	8.6	167.9	167.1	1.00	8.0
+hlbrtC	50	2	8.7	169.0	168.4	1.00	8.0
+hlbrtD	50	2	8.8	172.2	169.7	0.99	8.0
+hlbrtE	50	2	8.7	170.8	168.6	0.99	8.0
+hlbrtF	50	2	8.6	167.9	166.6	0.99	8.0
+AVG:				166.1	164.6
+TOTAL:							48.0
+Test time for 2 processes = 307.3 secs.
++++++++++++++++++ Benchmark hlbrtAx03-step050-seed618.txt
+Run #1:Running 'mpirun -np 3 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtA.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 150400 edges, and 256 regions, partitioned into 3 zones 
+Loaded 1024000 rats
+Running with 3 processes.
+50 steps, 1024000 rats, 4.775 seconds
+Run #2:Running 'mpirun -np 3 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtA.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 150400 edges, and 256 regions, partitioned into 3 zones 
+Loaded 1024000 rats
+Running with 3 processes.
+50 steps, 1024000 rats, 4.805 seconds
+Run #3:Running 'mpirun -np 3 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtA.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 150400 edges, and 256 regions, partitioned into 3 zones 
+Loaded 1024000 rats
+Running with 3 processes.
+50 steps, 1024000 rats, 4.867 seconds
+Run #1:Running 'mpirun -np 3 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtA.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 150400 edges, and 256 regions, partitioned into 3 zones 
+Loaded 1024000 rats
+Running with 3 processes.
+50 steps, 1024000 rats, 4.846 seconds
+Run #2:Running 'mpirun -np 3 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtA.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 150400 edges, and 256 regions, partitioned into 3 zones 
+Loaded 1024000 rats
+Running with 3 processes.
+50 steps, 1024000 rats, 4.820 seconds
+Run #3:Running 'mpirun -np 3 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtA.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 150400 edges, and 256 regions, partitioned into 3 zones 
+Loaded 1024000 rats
+Running with 3 processes.
+50 steps, 1024000 rats, 4.852 seconds
++++++++++++++++++ Benchmark hlbrtBx03-step050-seed618.txt
+Run #1:Running 'mpirun -np 3 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtB.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 193834 edges, and 100 regions, partitioned into 3 zones 
+Loaded 1024000 rats
+Running with 3 processes.
+50 steps, 1024000 rats, 5.646 seconds
+Run #2:Running 'mpirun -np 3 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtB.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 193834 edges, and 100 regions, partitioned into 3 zones 
+Loaded 1024000 rats
+Running with 3 processes.
+50 steps, 1024000 rats, 5.663 seconds
+Run #3:Running 'mpirun -np 3 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtB.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 193834 edges, and 100 regions, partitioned into 3 zones 
+Loaded 1024000 rats
+Running with 3 processes.
+50 steps, 1024000 rats, 5.703 seconds
+Run #1:Running 'mpirun -np 3 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtB.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 193834 edges, and 100 regions, partitioned into 3 zones 
+Loaded 1024000 rats
+Running with 3 processes.
+50 steps, 1024000 rats, 5.504 seconds
+Run #2:Running 'mpirun -np 3 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtB.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 193834 edges, and 100 regions, partitioned into 3 zones 
+Loaded 1024000 rats
+Running with 3 processes.
+50 steps, 1024000 rats, 5.517 seconds
+Run #3:Running 'mpirun -np 3 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtB.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 193834 edges, and 100 regions, partitioned into 3 zones 
+Loaded 1024000 rats
+Running with 3 processes.
+50 steps, 1024000 rats, 5.563 seconds
++++++++++++++++++ Benchmark hlbrtCx03-step050-seed618.txt
+Run #1:Running 'mpirun -np 3 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtC.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 203606 edges, and 150 regions, partitioned into 3 zones 
+Loaded 1024000 rats
+Running with 3 processes.
+50 steps, 1024000 rats, 5.736 seconds
+Run #2:Running 'mpirun -np 3 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtC.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 203606 edges, and 150 regions, partitioned into 3 zones 
+Loaded 1024000 rats
+Running with 3 processes.
+50 steps, 1024000 rats, 5.736 seconds
+Run #3:Running 'mpirun -np 3 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtC.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 203606 edges, and 150 regions, partitioned into 3 zones 
+Loaded 1024000 rats
+Running with 3 processes.
+50 steps, 1024000 rats, 5.748 seconds
+Run #1:Running 'mpirun -np 3 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtC.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 203606 edges, and 150 regions, partitioned into 3 zones 
+Loaded 1024000 rats
+Running with 3 processes.
+50 steps, 1024000 rats, 5.697 seconds
+Run #2:Running 'mpirun -np 3 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtC.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 203606 edges, and 150 regions, partitioned into 3 zones 
+Loaded 1024000 rats
+Running with 3 processes.
+50 steps, 1024000 rats, 5.634 seconds
+Run #3:Running 'mpirun -np 3 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtC.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 203606 edges, and 150 regions, partitioned into 3 zones 
+Loaded 1024000 rats
+Running with 3 processes.
+50 steps, 1024000 rats, 5.635 seconds
++++++++++++++++++ Benchmark hlbrtDx03-step050-seed618.txt
+Run #1:Running 'mpirun -np 3 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtD.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 193572 edges, and 80 regions, partitioned into 3 zones 
+Loaded 1024000 rats
+Running with 3 processes.
+50 steps, 1024000 rats, 5.585 seconds
+Run #2:Running 'mpirun -np 3 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtD.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 193572 edges, and 80 regions, partitioned into 3 zones 
+Loaded 1024000 rats
+Running with 3 processes.
+50 steps, 1024000 rats, 5.624 seconds
+Run #3:Running 'mpirun -np 3 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtD.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 193572 edges, and 80 regions, partitioned into 3 zones 
+Loaded 1024000 rats
+Running with 3 processes.
+50 steps, 1024000 rats, 5.604 seconds
+Run #1:Running 'mpirun -np 3 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtD.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 193572 edges, and 80 regions, partitioned into 3 zones 
+Loaded 1024000 rats
+Running with 3 processes.
+50 steps, 1024000 rats, 5.545 seconds
+Run #2:Running 'mpirun -np 3 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtD.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 193572 edges, and 80 regions, partitioned into 3 zones 
+Loaded 1024000 rats
+Running with 3 processes.
+50 steps, 1024000 rats, 5.577 seconds
+Run #3:Running 'mpirun -np 3 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtD.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 193572 edges, and 80 regions, partitioned into 3 zones 
+Loaded 1024000 rats
+Running with 3 processes.
+50 steps, 1024000 rats, 5.508 seconds
++++++++++++++++++ Benchmark hlbrtEx03-step050-seed618.txt
+Run #1:Running 'mpirun -np 3 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtE.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 199188 edges, and 74 regions, partitioned into 3 zones 
+Loaded 1024000 rats
+Running with 3 processes.
+50 steps, 1024000 rats, 5.680 seconds
+Run #2:Running 'mpirun -np 3 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtE.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 199188 edges, and 74 regions, partitioned into 3 zones 
+Loaded 1024000 rats
+Running with 3 processes.
+50 steps, 1024000 rats, 5.691 seconds
+Run #3:Running 'mpirun -np 3 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtE.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 199188 edges, and 74 regions, partitioned into 3 zones 
+Loaded 1024000 rats
+Running with 3 processes.
+50 steps, 1024000 rats, 5.727 seconds
+Run #1:Running 'mpirun -np 3 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtE.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 199188 edges, and 74 regions, partitioned into 3 zones 
+Loaded 1024000 rats
+Running with 3 processes.
+50 steps, 1024000 rats, 5.759 seconds
+Run #2:Running 'mpirun -np 3 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtE.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 199188 edges, and 74 regions, partitioned into 3 zones 
+Loaded 1024000 rats
+Running with 3 processes.
+50 steps, 1024000 rats, 5.773 seconds
+Run #3:Running 'mpirun -np 3 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtE.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 199188 edges, and 74 regions, partitioned into 3 zones 
+Loaded 1024000 rats
+Running with 3 processes.
+50 steps, 1024000 rats, 5.738 seconds
++++++++++++++++++ Benchmark hlbrtFx03-step050-seed618.txt
+Run #1:Running 'mpirun -np 3 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtF.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 192370 edges, and 61 regions, partitioned into 3 zones 
+Loaded 1024000 rats
+Running with 3 processes.
+50 steps, 1024000 rats, 5.651 seconds
+Run #2:Running 'mpirun -np 3 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtF.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 192370 edges, and 61 regions, partitioned into 3 zones 
+Loaded 1024000 rats
+Running with 3 processes.
+50 steps, 1024000 rats, 5.613 seconds
+Run #3:Running 'mpirun -np 3 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtF.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 192370 edges, and 61 regions, partitioned into 3 zones 
+Loaded 1024000 rats
+Running with 3 processes.
+50 steps, 1024000 rats, 5.632 seconds
+Run #1:Running 'mpirun -np 3 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtF.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 192370 edges, and 61 regions, partitioned into 3 zones 
+Loaded 1024000 rats
+Running with 3 processes.
+50 steps, 1024000 rats, 5.586 seconds
+Run #2:Running 'mpirun -np 3 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtF.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 192370 edges, and 61 regions, partitioned into 3 zones 
+Loaded 1024000 rats
+Running with 3 processes.
+50 steps, 1024000 rats, 5.586 seconds
+Run #3:Running 'mpirun -np 3 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtF.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 192370 edges, and 61 regions, partitioned into 3 zones 
+Loaded 1024000 rats
+Running with 3 processes.
+50 steps, 1024000 rats, 5.655 seconds
++++++++++++++++++
+Name	steps	procs	secs	NPM	BNPM	Ratio	Pts
+hlbrtA	50	3	6.0	118.0	118.9	1.01	8.0
+hlbrtB	50	3	6.9	135.1	132.4	0.98	8.0
+hlbrtC	50	3	7.0	136.9	135.0	0.99	8.0
+hlbrtD	50	3	6.9	133.9	132.5	0.99	8.0
+hlbrtE	50	3	7.0	135.8	137.1	1.01	8.0
+hlbrtF	50	3	6.9	134.5	133.9	1.00	8.0
+AVG:				132.4	131.6
+TOTAL:							48.0
+Test time for 3 processes = 244.9 secs.
++++++++++++++++++ Benchmark hlbrtAx04-step050-seed618.txt
+Run #1:Running 'mpirun -np 4 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtA.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 150400 edges, and 256 regions, partitioned into 4 zones 
+Loaded 1024000 rats
+Running with 4 processes.
+50 steps, 1024000 rats, 3.825 seconds
+Run #2:Running 'mpirun -np 4 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtA.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 150400 edges, and 256 regions, partitioned into 4 zones 
+Loaded 1024000 rats
+Running with 4 processes.
+50 steps, 1024000 rats, 3.798 seconds
+Run #3:Running 'mpirun -np 4 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtA.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 150400 edges, and 256 regions, partitioned into 4 zones 
+Loaded 1024000 rats
+Running with 4 processes.
+50 steps, 1024000 rats, 3.836 seconds
+Run #1:Running 'mpirun -np 4 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtA.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 150400 edges, and 256 regions, partitioned into 4 zones 
+Loaded 1024000 rats
+Running with 4 processes.
+50 steps, 1024000 rats, 3.806 seconds
+Run #2:Running 'mpirun -np 4 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtA.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 150400 edges, and 256 regions, partitioned into 4 zones 
+Loaded 1024000 rats
+Running with 4 processes.
+50 steps, 1024000 rats, 3.765 seconds
+Run #3:Running 'mpirun -np 4 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtA.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 150400 edges, and 256 regions, partitioned into 4 zones 
+Loaded 1024000 rats
+Running with 4 processes.
+50 steps, 1024000 rats, 3.829 seconds
++++++++++++++++++ Benchmark hlbrtBx04-step050-seed618.txt
+Run #1:Running 'mpirun -np 4 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtB.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 193834 edges, and 100 regions, partitioned into 4 zones 
+Loaded 1024000 rats
+Running with 4 processes.
+50 steps, 1024000 rats, 4.542 seconds
+Run #2:Running 'mpirun -np 4 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtB.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 193834 edges, and 100 regions, partitioned into 4 zones 
+Loaded 1024000 rats
+Running with 4 processes.
+50 steps, 1024000 rats, 4.534 seconds
+Run #3:Running 'mpirun -np 4 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtB.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 193834 edges, and 100 regions, partitioned into 4 zones 
+Loaded 1024000 rats
+Running with 4 processes.
+50 steps, 1024000 rats, 4.542 seconds
+Run #1:Running 'mpirun -np 4 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtB.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 193834 edges, and 100 regions, partitioned into 4 zones 
+Loaded 1024000 rats
+Running with 4 processes.
+50 steps, 1024000 rats, 4.413 seconds
+Run #2:Running 'mpirun -np 4 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtB.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 193834 edges, and 100 regions, partitioned into 4 zones 
+Loaded 1024000 rats
+Running with 4 processes.
+50 steps, 1024000 rats, 4.429 seconds
+Run #3:Running 'mpirun -np 4 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtB.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 193834 edges, and 100 regions, partitioned into 4 zones 
+Loaded 1024000 rats
+Running with 4 processes.
+50 steps, 1024000 rats, 4.417 seconds
++++++++++++++++++ Benchmark hlbrtCx04-step050-seed618.txt
+Run #1:Running 'mpirun -np 4 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtC.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 203606 edges, and 150 regions, partitioned into 4 zones 
+Loaded 1024000 rats
+Running with 4 processes.
+50 steps, 1024000 rats, 4.680 seconds
+Run #2:Running 'mpirun -np 4 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtC.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 203606 edges, and 150 regions, partitioned into 4 zones 
+Loaded 1024000 rats
+Running with 4 processes.
+50 steps, 1024000 rats, 4.594 seconds
+Run #3:Running 'mpirun -np 4 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtC.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 203606 edges, and 150 regions, partitioned into 4 zones 
+Loaded 1024000 rats
+Running with 4 processes.
+50 steps, 1024000 rats, 4.672 seconds
+Run #1:Running 'mpirun -np 4 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtC.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 203606 edges, and 150 regions, partitioned into 4 zones 
+Loaded 1024000 rats
+Running with 4 processes.
+50 steps, 1024000 rats, 4.520 seconds
+Run #2:Running 'mpirun -np 4 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtC.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 203606 edges, and 150 regions, partitioned into 4 zones 
+Loaded 1024000 rats
+Running with 4 processes.
+50 steps, 1024000 rats, 4.553 seconds
+Run #3:Running 'mpirun -np 4 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtC.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 203606 edges, and 150 regions, partitioned into 4 zones 
+Loaded 1024000 rats
+Running with 4 processes.
+50 steps, 1024000 rats, 4.501 seconds
++++++++++++++++++ Benchmark hlbrtDx04-step050-seed618.txt
+Run #1:Running 'mpirun -np 4 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtD.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 193572 edges, and 80 regions, partitioned into 4 zones 
+Loaded 1024000 rats
+Running with 4 processes.
+50 steps, 1024000 rats, 4.616 seconds
+Run #2:Running 'mpirun -np 4 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtD.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 193572 edges, and 80 regions, partitioned into 4 zones 
+Loaded 1024000 rats
+Running with 4 processes.
+50 steps, 1024000 rats, 4.633 seconds
+Run #3:Running 'mpirun -np 4 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtD.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 193572 edges, and 80 regions, partitioned into 4 zones 
+Loaded 1024000 rats
+Running with 4 processes.
+50 steps, 1024000 rats, 4.652 seconds
+Run #1:Running 'mpirun -np 4 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtD.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 193572 edges, and 80 regions, partitioned into 4 zones 
+Loaded 1024000 rats
+Running with 4 processes.
+50 steps, 1024000 rats, 4.484 seconds
+Run #2:Running 'mpirun -np 4 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtD.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 193572 edges, and 80 regions, partitioned into 4 zones 
+Loaded 1024000 rats
+Running with 4 processes.
+50 steps, 1024000 rats, 4.464 seconds
+Run #3:Running 'mpirun -np 4 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtD.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 193572 edges, and 80 regions, partitioned into 4 zones 
+Loaded 1024000 rats
+Running with 4 processes.
+50 steps, 1024000 rats, 4.478 seconds
++++++++++++++++++ Benchmark hlbrtEx04-step050-seed618.txt
+Run #1:Running 'mpirun -np 4 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtE.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 199188 edges, and 74 regions, partitioned into 4 zones 
+Loaded 1024000 rats
+Running with 4 processes.
+50 steps, 1024000 rats, 4.568 seconds
+Run #2:Running 'mpirun -np 4 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtE.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 199188 edges, and 74 regions, partitioned into 4 zones 
+Loaded 1024000 rats
+Running with 4 processes.
+50 steps, 1024000 rats, 4.589 seconds
+Run #3:Running 'mpirun -np 4 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtE.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 199188 edges, and 74 regions, partitioned into 4 zones 
+Loaded 1024000 rats
+Running with 4 processes.
+50 steps, 1024000 rats, 4.564 seconds
+Run #1:Running 'mpirun -np 4 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtE.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 199188 edges, and 74 regions, partitioned into 4 zones 
+Loaded 1024000 rats
+Running with 4 processes.
+50 steps, 1024000 rats, 4.449 seconds
+Run #2:Running 'mpirun -np 4 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtE.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 199188 edges, and 74 regions, partitioned into 4 zones 
+Loaded 1024000 rats
+Running with 4 processes.
+50 steps, 1024000 rats, 4.471 seconds
+Run #3:Running 'mpirun -np 4 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtE.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 199188 edges, and 74 regions, partitioned into 4 zones 
+Loaded 1024000 rats
+Running with 4 processes.
+50 steps, 1024000 rats, 4.523 seconds
++++++++++++++++++ Benchmark hlbrtFx04-step050-seed618.txt
+Run #1:Running 'mpirun -np 4 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtF.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 192370 edges, and 61 regions, partitioned into 4 zones 
+Loaded 1024000 rats
+Running with 4 processes.
+50 steps, 1024000 rats, 4.571 seconds
+Run #2:Running 'mpirun -np 4 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtF.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 192370 edges, and 61 regions, partitioned into 4 zones 
+Loaded 1024000 rats
+Running with 4 processes.
+50 steps, 1024000 rats, 4.506 seconds
+Run #3:Running 'mpirun -np 4 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtF.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 192370 edges, and 61 regions, partitioned into 4 zones 
+Loaded 1024000 rats
+Running with 4 processes.
+50 steps, 1024000 rats, 4.514 seconds
+Run #1:Running 'mpirun -np 4 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtF.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 192370 edges, and 61 regions, partitioned into 4 zones 
+Loaded 1024000 rats
+Running with 4 processes.
+50 steps, 1024000 rats, 4.576 seconds
+Run #2:Running 'mpirun -np 4 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtF.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 192370 edges, and 61 regions, partitioned into 4 zones 
+Loaded 1024000 rats
+Running with 4 processes.
+50 steps, 1024000 rats, 4.508 seconds
+Run #3:Running 'mpirun -np 4 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtF.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 192370 edges, and 61 regions, partitioned into 4 zones 
+Loaded 1024000 rats
+Running with 4 processes.
+50 steps, 1024000 rats, 4.529 seconds
++++++++++++++++++
+Name	steps	procs	secs	NPM	BNPM	Ratio	Pts
+hlbrtA	50	4	5.1	99.2	98.6	0.99	8.0
+hlbrtB	50	4	5.8	113.6	111.4	0.98	8.0
+hlbrtC	50	4	5.9	115.0	113.1	0.98	8.0
+hlbrtD	50	4	5.9	115.2	112.4	0.98	8.0
+hlbrtE	50	4	5.9	114.3	112.0	0.98	8.0
+hlbrtF	50	4	5.8	113.1	113.1	1.00	8.0
+AVG:				111.7	110.1
+TOTAL:							48.0
+Test time for 4 processes = 205.9 secs.
++++++++++++++++++ Benchmark hlbrtAx05-step050-seed618.txt
+Run #1:Running 'mpirun -np 5 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtA.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 150400 edges, and 256 regions, partitioned into 5 zones 
+Loaded 1024000 rats
+Running with 5 processes.
+50 steps, 1024000 rats, 3.322 seconds
+Run #2:Running 'mpirun -np 5 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtA.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 150400 edges, and 256 regions, partitioned into 5 zones 
+Loaded 1024000 rats
+Running with 5 processes.
+50 steps, 1024000 rats, 3.375 seconds
+Run #3:Running 'mpirun -np 5 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtA.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 150400 edges, and 256 regions, partitioned into 5 zones 
+Loaded 1024000 rats
+Running with 5 processes.
+50 steps, 1024000 rats, 3.336 seconds
+Run #1:Running 'mpirun -np 5 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtA.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 150400 edges, and 256 regions, partitioned into 5 zones 
+Loaded 1024000 rats
+Running with 5 processes.
+50 steps, 1024000 rats, 3.292 seconds
+Run #2:Running 'mpirun -np 5 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtA.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 150400 edges, and 256 regions, partitioned into 5 zones 
+Loaded 1024000 rats
+Running with 5 processes.
+50 steps, 1024000 rats, 3.292 seconds
+Run #3:Running 'mpirun -np 5 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtA.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 150400 edges, and 256 regions, partitioned into 5 zones 
+Loaded 1024000 rats
+Running with 5 processes.
+50 steps, 1024000 rats, 3.271 seconds
++++++++++++++++++ Benchmark hlbrtBx05-step050-seed618.txt
+Run #1:Running 'mpirun -np 5 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtB.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 193834 edges, and 100 regions, partitioned into 5 zones 
+Loaded 1024000 rats
+Running with 5 processes.
+50 steps, 1024000 rats, 3.838 seconds
+Run #2:Running 'mpirun -np 5 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtB.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 193834 edges, and 100 regions, partitioned into 5 zones 
+Loaded 1024000 rats
+Running with 5 processes.
+50 steps, 1024000 rats, 3.841 seconds
+Run #3:Running 'mpirun -np 5 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtB.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 193834 edges, and 100 regions, partitioned into 5 zones 
+Loaded 1024000 rats
+Running with 5 processes.
+50 steps, 1024000 rats, 3.863 seconds
+Run #1:Running 'mpirun -np 5 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtB.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 193834 edges, and 100 regions, partitioned into 5 zones 
+Loaded 1024000 rats
+Running with 5 processes.
+50 steps, 1024000 rats, 3.820 seconds
+Run #2:Running 'mpirun -np 5 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtB.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 193834 edges, and 100 regions, partitioned into 5 zones 
+Loaded 1024000 rats
+Running with 5 processes.
+50 steps, 1024000 rats, 3.801 seconds
+Run #3:Running 'mpirun -np 5 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtB.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 193834 edges, and 100 regions, partitioned into 5 zones 
+Loaded 1024000 rats
+Running with 5 processes.
+50 steps, 1024000 rats, 3.760 seconds
++++++++++++++++++ Benchmark hlbrtCx05-step050-seed618.txt
+Run #1:Running 'mpirun -np 5 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtC.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 203606 edges, and 150 regions, partitioned into 5 zones 
+Loaded 1024000 rats
+Running with 5 processes.
+50 steps, 1024000 rats, 3.969 seconds
+Run #2:Running 'mpirun -np 5 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtC.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 203606 edges, and 150 regions, partitioned into 5 zones 
+Loaded 1024000 rats
+Running with 5 processes.
+50 steps, 1024000 rats, 3.966 seconds
+Run #3:Running 'mpirun -np 5 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtC.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 203606 edges, and 150 regions, partitioned into 5 zones 
+Loaded 1024000 rats
+Running with 5 processes.
+50 steps, 1024000 rats, 4.022 seconds
+Run #1:Running 'mpirun -np 5 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtC.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 203606 edges, and 150 regions, partitioned into 5 zones 
+Loaded 1024000 rats
+Running with 5 processes.
+50 steps, 1024000 rats, 3.907 seconds
+Run #2:Running 'mpirun -np 5 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtC.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 203606 edges, and 150 regions, partitioned into 5 zones 
+Loaded 1024000 rats
+Running with 5 processes.
+50 steps, 1024000 rats, 3.894 seconds
+Run #3:Running 'mpirun -np 5 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtC.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 203606 edges, and 150 regions, partitioned into 5 zones 
+Loaded 1024000 rats
+Running with 5 processes.
+50 steps, 1024000 rats, 3.871 seconds
++++++++++++++++++ Benchmark hlbrtDx05-step050-seed618.txt
+Run #1:Running 'mpirun -np 5 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtD.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 193572 edges, and 80 regions, partitioned into 5 zones 
+Loaded 1024000 rats
+Running with 5 processes.
+50 steps, 1024000 rats, 3.883 seconds
+Run #2:Running 'mpirun -np 5 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtD.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 193572 edges, and 80 regions, partitioned into 5 zones 
+Loaded 1024000 rats
+Running with 5 processes.
+50 steps, 1024000 rats, 3.868 seconds
+Run #3:Running 'mpirun -np 5 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtD.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 193572 edges, and 80 regions, partitioned into 5 zones 
+Loaded 1024000 rats
+Running with 5 processes.
+50 steps, 1024000 rats, 3.893 seconds
+Run #1:Running 'mpirun -np 5 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtD.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 193572 edges, and 80 regions, partitioned into 5 zones 
+Loaded 1024000 rats
+Running with 5 processes.
+50 steps, 1024000 rats, 3.822 seconds
+Run #2:Running 'mpirun -np 5 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtD.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 193572 edges, and 80 regions, partitioned into 5 zones 
+Loaded 1024000 rats
+Running with 5 processes.
+50 steps, 1024000 rats, 3.843 seconds
+Run #3:Running 'mpirun -np 5 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtD.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 193572 edges, and 80 regions, partitioned into 5 zones 
+Loaded 1024000 rats
+Running with 5 processes.
+50 steps, 1024000 rats, 3.911 seconds
++++++++++++++++++ Benchmark hlbrtEx05-step050-seed618.txt
+Run #1:Running 'mpirun -np 5 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtE.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 199188 edges, and 74 regions, partitioned into 5 zones 
+Loaded 1024000 rats
+Running with 5 processes.
+50 steps, 1024000 rats, 3.995 seconds
+Run #2:Running 'mpirun -np 5 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtE.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 199188 edges, and 74 regions, partitioned into 5 zones 
+Loaded 1024000 rats
+Running with 5 processes.
+50 steps, 1024000 rats, 3.907 seconds
+Run #3:Running 'mpirun -np 5 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtE.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 199188 edges, and 74 regions, partitioned into 5 zones 
+Loaded 1024000 rats
+Running with 5 processes.
+50 steps, 1024000 rats, 3.956 seconds
+Run #1:Running 'mpirun -np 5 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtE.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 199188 edges, and 74 regions, partitioned into 5 zones 
+Loaded 1024000 rats
+Running with 5 processes.
+50 steps, 1024000 rats, 3.986 seconds
+Run #2:Running 'mpirun -np 5 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtE.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 199188 edges, and 74 regions, partitioned into 5 zones 
+Loaded 1024000 rats
+Running with 5 processes.
+50 steps, 1024000 rats, 3.954 seconds
+Run #3:Running 'mpirun -np 5 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtE.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 199188 edges, and 74 regions, partitioned into 5 zones 
+Loaded 1024000 rats
+Running with 5 processes.
+50 steps, 1024000 rats, 3.950 seconds
++++++++++++++++++ Benchmark hlbrtFx05-step050-seed618.txt
+Run #1:Running 'mpirun -np 5 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtF.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 192370 edges, and 61 regions, partitioned into 5 zones 
+Loaded 1024000 rats
+Running with 5 processes.
+50 steps, 1024000 rats, 3.872 seconds
+Run #2:Running 'mpirun -np 5 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtF.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 192370 edges, and 61 regions, partitioned into 5 zones 
+Loaded 1024000 rats
+Running with 5 processes.
+50 steps, 1024000 rats, 3.889 seconds
+Run #3:Running 'mpirun -np 5 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtF.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 192370 edges, and 61 regions, partitioned into 5 zones 
+Loaded 1024000 rats
+Running with 5 processes.
+50 steps, 1024000 rats, 3.915 seconds
+Run #1:Running 'mpirun -np 5 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtF.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 192370 edges, and 61 regions, partitioned into 5 zones 
+Loaded 1024000 rats
+Running with 5 processes.
+50 steps, 1024000 rats, 4.067 seconds
+Run #2:Running 'mpirun -np 5 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtF.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 192370 edges, and 61 regions, partitioned into 5 zones 
+Loaded 1024000 rats
+Running with 5 processes.
+50 steps, 1024000 rats, 4.027 seconds
+Run #3:Running 'mpirun -np 5 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtF.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 192370 edges, and 61 regions, partitioned into 5 zones 
+Loaded 1024000 rats
+Running with 5 processes.
+50 steps, 1024000 rats, 4.056 seconds
++++++++++++++++++
+Name	steps	procs	secs	NPM	BNPM	Ratio	Pts
+hlbrtA	50	5	4.6	90.2	89.2	0.99	8.0
+hlbrtB	50	5	5.1	100.4	98.9	0.99	8.0
+hlbrtC	50	5	5.3	102.9	101.0	0.98	8.0
+hlbrtD	50	5	5.2	100.9	99.9	0.99	8.0
+hlbrtE	50	5	5.2	101.8	102.5	1.01	8.0
+hlbrtF	50	5	5.2	100.9	104.0	1.03	8.0
+AVG:				99.5	99.2
+TOTAL:							48.0
+Test time for 5 processes = 184.7 secs.
++++++++++++++++++ Benchmark hlbrtAx06-step050-seed618.txt
+Run #1:Running 'mpirun -np 6 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtA.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 150400 edges, and 256 regions, partitioned into 6 zones 
+Loaded 1024000 rats
+Running with 6 processes.
+50 steps, 1024000 rats, 2.957 seconds
+Run #2:Running 'mpirun -np 6 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtA.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 150400 edges, and 256 regions, partitioned into 6 zones 
+Loaded 1024000 rats
+Running with 6 processes.
+50 steps, 1024000 rats, 2.937 seconds
+Run #3:Running 'mpirun -np 6 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtA.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 150400 edges, and 256 regions, partitioned into 6 zones 
+Loaded 1024000 rats
+Running with 6 processes.
+50 steps, 1024000 rats, 2.993 seconds
+Run #1:Running 'mpirun -np 6 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtA.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 150400 edges, and 256 regions, partitioned into 6 zones 
+Loaded 1024000 rats
+Running with 6 processes.
+50 steps, 1024000 rats, 2.943 seconds
+Run #2:Running 'mpirun -np 6 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtA.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 150400 edges, and 256 regions, partitioned into 6 zones 
+Loaded 1024000 rats
+Running with 6 processes.
+50 steps, 1024000 rats, 2.879 seconds
+Run #3:Running 'mpirun -np 6 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtA.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 150400 edges, and 256 regions, partitioned into 6 zones 
+Loaded 1024000 rats
+Running with 6 processes.
+50 steps, 1024000 rats, 2.936 seconds
++++++++++++++++++ Benchmark hlbrtBx06-step050-seed618.txt
+Run #1:Running 'mpirun -np 6 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtB.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 193834 edges, and 100 regions, partitioned into 6 zones 
+Loaded 1024000 rats
+Running with 6 processes.
+50 steps, 1024000 rats, 3.544 seconds
+Run #2:Running 'mpirun -np 6 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtB.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 193834 edges, and 100 regions, partitioned into 6 zones 
+Loaded 1024000 rats
+Running with 6 processes.
+50 steps, 1024000 rats, 3.543 seconds
+Run #3:Running 'mpirun -np 6 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtB.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 193834 edges, and 100 regions, partitioned into 6 zones 
+Loaded 1024000 rats
+Running with 6 processes.
+50 steps, 1024000 rats, 3.531 seconds
+Run #1:Running 'mpirun -np 6 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtB.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 193834 edges, and 100 regions, partitioned into 6 zones 
+Loaded 1024000 rats
+Running with 6 processes.
+50 steps, 1024000 rats, 3.420 seconds
+Run #2:Running 'mpirun -np 6 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtB.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 193834 edges, and 100 regions, partitioned into 6 zones 
+Loaded 1024000 rats
+Running with 6 processes.
+50 steps, 1024000 rats, 3.393 seconds
+Run #3:Running 'mpirun -np 6 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtB.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 193834 edges, and 100 regions, partitioned into 6 zones 
+Loaded 1024000 rats
+Running with 6 processes.
+50 steps, 1024000 rats, 3.402 seconds
++++++++++++++++++ Benchmark hlbrtCx06-step050-seed618.txt
+Run #1:Running 'mpirun -np 6 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtC.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 203606 edges, and 150 regions, partitioned into 6 zones 
+Loaded 1024000 rats
+Running with 6 processes.
+50 steps, 1024000 rats, 3.542 seconds
+Run #2:Running 'mpirun -np 6 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtC.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 203606 edges, and 150 regions, partitioned into 6 zones 
+Loaded 1024000 rats
+Running with 6 processes.
+50 steps, 1024000 rats, 3.535 seconds
+Run #3:Running 'mpirun -np 6 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtC.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 203606 edges, and 150 regions, partitioned into 6 zones 
+Loaded 1024000 rats
+Running with 6 processes.
+50 steps, 1024000 rats, 3.509 seconds
+Run #1:Running 'mpirun -np 6 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtC.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 203606 edges, and 150 regions, partitioned into 6 zones 
+Loaded 1024000 rats
+Running with 6 processes.
+50 steps, 1024000 rats, 3.514 seconds
+Run #2:Running 'mpirun -np 6 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtC.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 203606 edges, and 150 regions, partitioned into 6 zones 
+Loaded 1024000 rats
+Running with 6 processes.
+50 steps, 1024000 rats, 3.399 seconds
+Run #3:Running 'mpirun -np 6 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtC.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 203606 edges, and 150 regions, partitioned into 6 zones 
+Loaded 1024000 rats
+Running with 6 processes.
+50 steps, 1024000 rats, 3.410 seconds
++++++++++++++++++ Benchmark hlbrtDx06-step050-seed618.txt
+Run #1:Running 'mpirun -np 6 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtD.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 193572 edges, and 80 regions, partitioned into 6 zones 
+Loaded 1024000 rats
+Running with 6 processes.
+50 steps, 1024000 rats, 3.597 seconds
+Run #2:Running 'mpirun -np 6 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtD.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 193572 edges, and 80 regions, partitioned into 6 zones 
+Loaded 1024000 rats
+Running with 6 processes.
+50 steps, 1024000 rats, 3.635 seconds
+Run #3:Running 'mpirun -np 6 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtD.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 193572 edges, and 80 regions, partitioned into 6 zones 
+Loaded 1024000 rats
+Running with 6 processes.
+50 steps, 1024000 rats, 3.580 seconds
+Run #1:Running 'mpirun -np 6 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtD.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 193572 edges, and 80 regions, partitioned into 6 zones 
+Loaded 1024000 rats
+Running with 6 processes.
+50 steps, 1024000 rats, 3.543 seconds
+Run #2:Running 'mpirun -np 6 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtD.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 193572 edges, and 80 regions, partitioned into 6 zones 
+Loaded 1024000 rats
+Running with 6 processes.
+50 steps, 1024000 rats, 3.486 seconds
+Run #3:Running 'mpirun -np 6 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtD.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 193572 edges, and 80 regions, partitioned into 6 zones 
+Loaded 1024000 rats
+Running with 6 processes.
+50 steps, 1024000 rats, 3.417 seconds
++++++++++++++++++ Benchmark hlbrtEx06-step050-seed618.txt
+Run #1:Running 'mpirun -np 6 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtE.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 199188 edges, and 74 regions, partitioned into 6 zones 
+Loaded 1024000 rats
+Running with 6 processes.
+50 steps, 1024000 rats, 3.649 seconds
+Run #2:Running 'mpirun -np 6 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtE.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 199188 edges, and 74 regions, partitioned into 6 zones 
+Loaded 1024000 rats
+Running with 6 processes.
+50 steps, 1024000 rats, 3.610 seconds
+Run #3:Running 'mpirun -np 6 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtE.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 199188 edges, and 74 regions, partitioned into 6 zones 
+Loaded 1024000 rats
+Running with 6 processes.
+50 steps, 1024000 rats, 3.617 seconds
+Run #1:Running 'mpirun -np 6 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtE.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 199188 edges, and 74 regions, partitioned into 6 zones 
+Loaded 1024000 rats
+Running with 6 processes.
+50 steps, 1024000 rats, 3.562 seconds
+Run #2:Running 'mpirun -np 6 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtE.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 199188 edges, and 74 regions, partitioned into 6 zones 
+Loaded 1024000 rats
+Running with 6 processes.
+50 steps, 1024000 rats, 3.465 seconds
+Run #3:Running 'mpirun -np 6 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtE.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 199188 edges, and 74 regions, partitioned into 6 zones 
+Loaded 1024000 rats
+Running with 6 processes.
+50 steps, 1024000 rats, 3.490 seconds
++++++++++++++++++ Benchmark hlbrtFx06-step050-seed618.txt
+Run #1:Running 'mpirun -np 6 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtF.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 192370 edges, and 61 regions, partitioned into 6 zones 
+Loaded 1024000 rats
+Running with 6 processes.
+50 steps, 1024000 rats, 3.418 seconds
+Run #2:Running 'mpirun -np 6 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtF.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 192370 edges, and 61 regions, partitioned into 6 zones 
+Loaded 1024000 rats
+Running with 6 processes.
+50 steps, 1024000 rats, 3.451 seconds
+Run #3:Running 'mpirun -np 6 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtF.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 192370 edges, and 61 regions, partitioned into 6 zones 
+Loaded 1024000 rats
+Running with 6 processes.
+50 steps, 1024000 rats, 3.426 seconds
+Run #1:Running 'mpirun -np 6 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtF.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 192370 edges, and 61 regions, partitioned into 6 zones 
+Loaded 1024000 rats
+Running with 6 processes.
+50 steps, 1024000 rats, 3.534 seconds
+Run #2:Running 'mpirun -np 6 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtF.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 192370 edges, and 61 regions, partitioned into 6 zones 
+Loaded 1024000 rats
+Running with 6 processes.
+50 steps, 1024000 rats, 3.497 seconds
+Run #3:Running 'mpirun -np 6 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtF.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 192370 edges, and 61 regions, partitioned into 6 zones 
+Loaded 1024000 rats
+Running with 6 processes.
+50 steps, 1024000 rats, 3.493 seconds
++++++++++++++++++
+Name	steps	procs	secs	NPM	BNPM	Ratio	Pts
+hlbrtA	50	6	4.3	83.1	81.9	0.99	8.0
+hlbrtB	50	6	4.8	94.7	91.9	0.97	8.0
+hlbrtC	50	6	4.8	94.3	92.1	0.98	8.0
+hlbrtD	50	6	4.9	95.6	92.4	0.97	8.0
+hlbrtE	50	6	4.9	96.3	93.3	0.97	8.0
+hlbrtF	50	6	4.7	92.3	93.9	1.02	8.0
+AVG:				92.7	90.9
+TOTAL:							48.0
+Test time for 6 processes = 171.1 secs.
++++++++++++++++++ Benchmark hlbrtAx07-step050-seed618.txt
+Run #1:Running 'mpirun -np 7 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtA.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 150400 edges, and 256 regions, partitioned into 7 zones 
+Loaded 1024000 rats
+Running with 7 processes.
+50 steps, 1024000 rats, 2.627 seconds
+Run #2:Running 'mpirun -np 7 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtA.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 150400 edges, and 256 regions, partitioned into 7 zones 
+Loaded 1024000 rats
+Running with 7 processes.
+50 steps, 1024000 rats, 2.645 seconds
+Run #3:Running 'mpirun -np 7 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtA.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 150400 edges, and 256 regions, partitioned into 7 zones 
+Loaded 1024000 rats
+Running with 7 processes.
+50 steps, 1024000 rats, 2.626 seconds
+Run #1:Running 'mpirun -np 7 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtA.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 150400 edges, and 256 regions, partitioned into 7 zones 
+Loaded 1024000 rats
+Running with 7 processes.
+50 steps, 1024000 rats, 2.528 seconds
+Run #2:Running 'mpirun -np 7 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtA.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 150400 edges, and 256 regions, partitioned into 7 zones 
+Loaded 1024000 rats
+Running with 7 processes.
+50 steps, 1024000 rats, 2.593 seconds
+Run #3:Running 'mpirun -np 7 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtA.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 150400 edges, and 256 regions, partitioned into 7 zones 
+Loaded 1024000 rats
+Running with 7 processes.
+50 steps, 1024000 rats, 2.538 seconds
++++++++++++++++++ Benchmark hlbrtBx07-step050-seed618.txt
+Run #1:Running 'mpirun -np 7 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtB.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 193834 edges, and 100 regions, partitioned into 7 zones 
+Loaded 1024000 rats
+Running with 7 processes.
+50 steps, 1024000 rats, 3.121 seconds
+Run #2:Running 'mpirun -np 7 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtB.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 193834 edges, and 100 regions, partitioned into 7 zones 
+Loaded 1024000 rats
+Running with 7 processes.
+50 steps, 1024000 rats, 3.104 seconds
+Run #3:Running 'mpirun -np 7 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtB.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 193834 edges, and 100 regions, partitioned into 7 zones 
+Loaded 1024000 rats
+Running with 7 processes.
+50 steps, 1024000 rats, 3.148 seconds
+Run #1:Running 'mpirun -np 7 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtB.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 193834 edges, and 100 regions, partitioned into 7 zones 
+Loaded 1024000 rats
+Running with 7 processes.
+50 steps, 1024000 rats, 2.931 seconds
+Run #2:Running 'mpirun -np 7 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtB.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 193834 edges, and 100 regions, partitioned into 7 zones 
+Loaded 1024000 rats
+Running with 7 processes.
+50 steps, 1024000 rats, 2.945 seconds
+Run #3:Running 'mpirun -np 7 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtB.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 193834 edges, and 100 regions, partitioned into 7 zones 
+Loaded 1024000 rats
+Running with 7 processes.
+50 steps, 1024000 rats, 2.952 seconds
++++++++++++++++++ Benchmark hlbrtCx07-step050-seed618.txt
+Run #1:Running 'mpirun -np 7 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtC.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 203606 edges, and 150 regions, partitioned into 7 zones 
+Loaded 1024000 rats
+Running with 7 processes.
+50 steps, 1024000 rats, 3.112 seconds
+Run #2:Running 'mpirun -np 7 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtC.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 203606 edges, and 150 regions, partitioned into 7 zones 
+Loaded 1024000 rats
+Running with 7 processes.
+50 steps, 1024000 rats, 3.127 seconds
+Run #3:Running 'mpirun -np 7 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtC.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 203606 edges, and 150 regions, partitioned into 7 zones 
+Loaded 1024000 rats
+Running with 7 processes.
+50 steps, 1024000 rats, 3.141 seconds
+Run #1:Running 'mpirun -np 7 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtC.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 203606 edges, and 150 regions, partitioned into 7 zones 
+Loaded 1024000 rats
+Running with 7 processes.
+50 steps, 1024000 rats, 3.034 seconds
+Run #2:Running 'mpirun -np 7 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtC.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 203606 edges, and 150 regions, partitioned into 7 zones 
+Loaded 1024000 rats
+Running with 7 processes.
+50 steps, 1024000 rats, 3.075 seconds
+Run #3:Running 'mpirun -np 7 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtC.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 203606 edges, and 150 regions, partitioned into 7 zones 
+Loaded 1024000 rats
+Running with 7 processes.
+50 steps, 1024000 rats, 3.077 seconds
++++++++++++++++++ Benchmark hlbrtDx07-step050-seed618.txt
+Run #1:Running 'mpirun -np 7 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtD.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 193572 edges, and 80 regions, partitioned into 7 zones 
+Loaded 1024000 rats
+Running with 7 processes.
+50 steps, 1024000 rats, 3.321 seconds
+Run #2:Running 'mpirun -np 7 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtD.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 193572 edges, and 80 regions, partitioned into 7 zones 
+Loaded 1024000 rats
+Running with 7 processes.
+50 steps, 1024000 rats, 3.172 seconds
+Run #3:Running 'mpirun -np 7 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtD.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 193572 edges, and 80 regions, partitioned into 7 zones 
+Loaded 1024000 rats
+Running with 7 processes.
+50 steps, 1024000 rats, 3.181 seconds
+Run #1:Running 'mpirun -np 7 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtD.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 193572 edges, and 80 regions, partitioned into 7 zones 
+Loaded 1024000 rats
+Running with 7 processes.
+50 steps, 1024000 rats, 2.973 seconds
+Run #2:Running 'mpirun -np 7 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtD.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 193572 edges, and 80 regions, partitioned into 7 zones 
+Loaded 1024000 rats
+Running with 7 processes.
+50 steps, 1024000 rats, 2.946 seconds
+Run #3:Running 'mpirun -np 7 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtD.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 193572 edges, and 80 regions, partitioned into 7 zones 
+Loaded 1024000 rats
+Running with 7 processes.
+50 steps, 1024000 rats, 2.965 seconds
++++++++++++++++++ Benchmark hlbrtEx07-step050-seed618.txt
+Run #1:Running 'mpirun -np 7 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtE.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 199188 edges, and 74 regions, partitioned into 7 zones 
+Loaded 1024000 rats
+Running with 7 processes.
+50 steps, 1024000 rats, 3.240 seconds
+Run #2:Running 'mpirun -np 7 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtE.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 199188 edges, and 74 regions, partitioned into 7 zones 
+Loaded 1024000 rats
+Running with 7 processes.
+50 steps, 1024000 rats, 3.319 seconds
+Run #3:Running 'mpirun -np 7 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtE.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 199188 edges, and 74 regions, partitioned into 7 zones 
+Loaded 1024000 rats
+Running with 7 processes.
+50 steps, 1024000 rats, 3.254 seconds
+Run #1:Running 'mpirun -np 7 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtE.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 199188 edges, and 74 regions, partitioned into 7 zones 
+Loaded 1024000 rats
+Running with 7 processes.
+50 steps, 1024000 rats, 2.964 seconds
+Run #2:Running 'mpirun -np 7 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtE.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 199188 edges, and 74 regions, partitioned into 7 zones 
+Loaded 1024000 rats
+Running with 7 processes.
+50 steps, 1024000 rats, 2.969 seconds
+Run #3:Running 'mpirun -np 7 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtE.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 199188 edges, and 74 regions, partitioned into 7 zones 
+Loaded 1024000 rats
+Running with 7 processes.
+50 steps, 1024000 rats, 2.990 seconds
++++++++++++++++++ Benchmark hlbrtFx07-step050-seed618.txt
+Run #1:Running 'mpirun -np 7 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtF.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 192370 edges, and 61 regions, partitioned into 7 zones 
+Loaded 1024000 rats
+Running with 7 processes.
+50 steps, 1024000 rats, 3.051 seconds
+Run #2:Running 'mpirun -np 7 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtF.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 192370 edges, and 61 regions, partitioned into 7 zones 
+Loaded 1024000 rats
+Running with 7 processes.
+50 steps, 1024000 rats, 3.002 seconds
+Run #3:Running 'mpirun -np 7 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtF.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 192370 edges, and 61 regions, partitioned into 7 zones 
+Loaded 1024000 rats
+Running with 7 processes.
+50 steps, 1024000 rats, 3.096 seconds
+Run #1:Running 'mpirun -np 7 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtF.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 192370 edges, and 61 regions, partitioned into 7 zones 
+Loaded 1024000 rats
+Running with 7 processes.
+50 steps, 1024000 rats, 2.952 seconds
+Run #2:Running 'mpirun -np 7 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtF.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 192370 edges, and 61 regions, partitioned into 7 zones 
+Loaded 1024000 rats
+Running with 7 processes.
+50 steps, 1024000 rats, 2.934 seconds
+Run #3:Running 'mpirun -np 7 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtF.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 192370 edges, and 61 regions, partitioned into 7 zones 
+Loaded 1024000 rats
+Running with 7 processes.
+50 steps, 1024000 rats, 2.963 seconds
++++++++++++++++++
+Name	steps	procs	secs	NPM	BNPM	Ratio	Pts
+hlbrtA	50	7	3.9	77.1	75.1	0.97	8.0
+hlbrtB	50	7	4.4	86.4	82.9	0.96	8.0
+hlbrtC	50	7	4.4	86.6	85.0	0.98	8.0
+hlbrtD	50	7	4.5	87.7	83.3	0.95	8.0
+hlbrtE	50	7	4.6	89.0	83.6	0.94	8.0
+hlbrtF	50	7	4.3	84.4	83.0	0.98	8.0
+AVG:				85.2	82.1
+TOTAL:							48.0
+Test time for 7 processes = 155.8 secs.
++++++++++++++++++ Benchmark hlbrtAx08-step050-seed618.txt
+Run #1:Running 'mpirun -np 8 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtA.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 150400 edges, and 256 regions, partitioned into 8 zones 
+Loaded 1024000 rats
+Running with 8 processes.
+50 steps, 1024000 rats, 2.389 seconds
+Run #2:Running 'mpirun -np 8 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtA.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 150400 edges, and 256 regions, partitioned into 8 zones 
+Loaded 1024000 rats
+Running with 8 processes.
+50 steps, 1024000 rats, 2.331 seconds
+Run #3:Running 'mpirun -np 8 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtA.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 150400 edges, and 256 regions, partitioned into 8 zones 
+Loaded 1024000 rats
+Running with 8 processes.
+50 steps, 1024000 rats, 2.344 seconds
+Run #1:Running 'mpirun -np 8 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtA.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 150400 edges, and 256 regions, partitioned into 8 zones 
+Loaded 1024000 rats
+Running with 8 processes.
+50 steps, 1024000 rats, 2.296 seconds
+Run #2:Running 'mpirun -np 8 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtA.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 150400 edges, and 256 regions, partitioned into 8 zones 
+Loaded 1024000 rats
+Running with 8 processes.
+50 steps, 1024000 rats, 2.273 seconds
+Run #3:Running 'mpirun -np 8 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtA.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 150400 edges, and 256 regions, partitioned into 8 zones 
+Loaded 1024000 rats
+Running with 8 processes.
+50 steps, 1024000 rats, 2.289 seconds
++++++++++++++++++ Benchmark hlbrtBx08-step050-seed618.txt
+Run #1:Running 'mpirun -np 8 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtB.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 193834 edges, and 100 regions, partitioned into 8 zones 
+Loaded 1024000 rats
+Running with 8 processes.
+50 steps, 1024000 rats, 2.775 seconds
+Run #2:Running 'mpirun -np 8 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtB.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 193834 edges, and 100 regions, partitioned into 8 zones 
+Loaded 1024000 rats
+Running with 8 processes.
+50 steps, 1024000 rats, 2.747 seconds
+Run #3:Running 'mpirun -np 8 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtB.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 193834 edges, and 100 regions, partitioned into 8 zones 
+Loaded 1024000 rats
+Running with 8 processes.
+50 steps, 1024000 rats, 2.772 seconds
+Run #1:Running 'mpirun -np 8 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtB.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 193834 edges, and 100 regions, partitioned into 8 zones 
+Loaded 1024000 rats
+Running with 8 processes.
+50 steps, 1024000 rats, 2.575 seconds
+Run #2:Running 'mpirun -np 8 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtB.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 193834 edges, and 100 regions, partitioned into 8 zones 
+Loaded 1024000 rats
+Running with 8 processes.
+50 steps, 1024000 rats, 2.587 seconds
+Run #3:Running 'mpirun -np 8 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtB.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 193834 edges, and 100 regions, partitioned into 8 zones 
+Loaded 1024000 rats
+Running with 8 processes.
+50 steps, 1024000 rats, 2.576 seconds
++++++++++++++++++ Benchmark hlbrtCx08-step050-seed618.txt
+Run #1:Running 'mpirun -np 8 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtC.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 203606 edges, and 150 regions, partitioned into 8 zones 
+Loaded 1024000 rats
+Running with 8 processes.
+50 steps, 1024000 rats, 2.807 seconds
+Run #2:Running 'mpirun -np 8 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtC.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 203606 edges, and 150 regions, partitioned into 8 zones 
+Loaded 1024000 rats
+Running with 8 processes.
+50 steps, 1024000 rats, 2.777 seconds
+Run #3:Running 'mpirun -np 8 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtC.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 203606 edges, and 150 regions, partitioned into 8 zones 
+Loaded 1024000 rats
+Running with 8 processes.
+50 steps, 1024000 rats, 2.811 seconds
+Run #1:Running 'mpirun -np 8 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtC.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 203606 edges, and 150 regions, partitioned into 8 zones 
+Loaded 1024000 rats
+Running with 8 processes.
+50 steps, 1024000 rats, 2.666 seconds
+Run #2:Running 'mpirun -np 8 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtC.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 203606 edges, and 150 regions, partitioned into 8 zones 
+Loaded 1024000 rats
+Running with 8 processes.
+50 steps, 1024000 rats, 2.709 seconds
+Run #3:Running 'mpirun -np 8 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtC.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 203606 edges, and 150 regions, partitioned into 8 zones 
+Loaded 1024000 rats
+Running with 8 processes.
+50 steps, 1024000 rats, 2.662 seconds
++++++++++++++++++ Benchmark hlbrtDx08-step050-seed618.txt
+Run #1:Running 'mpirun -np 8 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtD.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 193572 edges, and 80 regions, partitioned into 8 zones 
+Loaded 1024000 rats
+Running with 8 processes.
+50 steps, 1024000 rats, 2.817 seconds
+Run #2:Running 'mpirun -np 8 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtD.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 193572 edges, and 80 regions, partitioned into 8 zones 
+Loaded 1024000 rats
+Running with 8 processes.
+50 steps, 1024000 rats, 2.785 seconds
+Run #3:Running 'mpirun -np 8 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtD.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 193572 edges, and 80 regions, partitioned into 8 zones 
+Loaded 1024000 rats
+Running with 8 processes.
+50 steps, 1024000 rats, 2.828 seconds
+Run #1:Running 'mpirun -np 8 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtD.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 193572 edges, and 80 regions, partitioned into 8 zones 
+Loaded 1024000 rats
+Running with 8 processes.
+50 steps, 1024000 rats, 2.725 seconds
+Run #2:Running 'mpirun -np 8 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtD.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 193572 edges, and 80 regions, partitioned into 8 zones 
+Loaded 1024000 rats
+Running with 8 processes.
+50 steps, 1024000 rats, 2.758 seconds
+Run #3:Running 'mpirun -np 8 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtD.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 193572 edges, and 80 regions, partitioned into 8 zones 
+Loaded 1024000 rats
+Running with 8 processes.
+50 steps, 1024000 rats, 2.727 seconds
++++++++++++++++++ Benchmark hlbrtEx08-step050-seed618.txt
+Run #1:Running 'mpirun -np 8 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtE.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 199188 edges, and 74 regions, partitioned into 8 zones 
+Loaded 1024000 rats
+Running with 8 processes.
+50 steps, 1024000 rats, 2.802 seconds
+Run #2:Running 'mpirun -np 8 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtE.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 199188 edges, and 74 regions, partitioned into 8 zones 
+Loaded 1024000 rats
+Running with 8 processes.
+50 steps, 1024000 rats, 2.912 seconds
+Run #3:Running 'mpirun -np 8 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtE.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 199188 edges, and 74 regions, partitioned into 8 zones 
+Loaded 1024000 rats
+Running with 8 processes.
+50 steps, 1024000 rats, 2.951 seconds
+Run #1:Running 'mpirun -np 8 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtE.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 199188 edges, and 74 regions, partitioned into 8 zones 
+Loaded 1024000 rats
+Running with 8 processes.
+50 steps, 1024000 rats, 2.691 seconds
+Run #2:Running 'mpirun -np 8 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtE.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 199188 edges, and 74 regions, partitioned into 8 zones 
+Loaded 1024000 rats
+Running with 8 processes.
+50 steps, 1024000 rats, 2.695 seconds
+Run #3:Running 'mpirun -np 8 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtE.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 199188 edges, and 74 regions, partitioned into 8 zones 
+Loaded 1024000 rats
+Running with 8 processes.
+50 steps, 1024000 rats, 2.684 seconds
++++++++++++++++++ Benchmark hlbrtFx08-step050-seed618.txt
+Run #1:Running 'mpirun -np 8 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtF.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 192370 edges, and 61 regions, partitioned into 8 zones 
+Loaded 1024000 rats
+Running with 8 processes.
+50 steps, 1024000 rats, 2.795 seconds
+Run #2:Running 'mpirun -np 8 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtF.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 192370 edges, and 61 regions, partitioned into 8 zones 
+Loaded 1024000 rats
+Running with 8 processes.
+50 steps, 1024000 rats, 2.774 seconds
+Run #3:Running 'mpirun -np 8 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtF.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 192370 edges, and 61 regions, partitioned into 8 zones 
+Loaded 1024000 rats
+Running with 8 processes.
+50 steps, 1024000 rats, 2.798 seconds
+Run #1:Running 'mpirun -np 8 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtF.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 192370 edges, and 61 regions, partitioned into 8 zones 
+Loaded 1024000 rats
+Running with 8 processes.
+50 steps, 1024000 rats, 2.721 seconds
+Run #2:Running 'mpirun -np 8 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtF.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 192370 edges, and 61 regions, partitioned into 8 zones 
+Loaded 1024000 rats
+Running with 8 processes.
+50 steps, 1024000 rats, 2.653 seconds
+Run #3:Running 'mpirun -np 8 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtF.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 192370 edges, and 61 regions, partitioned into 8 zones 
+Loaded 1024000 rats
+Running with 8 processes.
+50 steps, 1024000 rats, 2.682 seconds
++++++++++++++++++
+Name	steps	procs	secs	NPM	BNPM	Ratio	Pts
+hlbrtA	50	8	3.7	71.5	70.2	0.98	8.0
+hlbrtB	50	8	4.1	79.5	76.0	0.96	8.0
+hlbrtC	50	8	4.1	80.2	77.8	0.97	8.0
+hlbrtD	50	8	4.1	80.2	78.9	0.98	8.0
+hlbrtE	50	8	4.1	80.5	78.2	0.97	8.0
+hlbrtF	50	8	4.1	80.0	77.9	0.97	8.0
+AVG:				78.6	76.5
+TOTAL:							48.0
+Test time for 8 processes = 144.4 secs.
++++++++++++++++++ Benchmark hlbrtAx09-step050-seed618.txt
+Run #1:Running 'mpirun -np 9 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtA.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 150400 edges, and 256 regions, partitioned into 9 zones 
+Loaded 1024000 rats
+Running with 9 processes.
+50 steps, 1024000 rats, 2.144 seconds
+Run #2:Running 'mpirun -np 9 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtA.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 150400 edges, and 256 regions, partitioned into 9 zones 
+Loaded 1024000 rats
+Running with 9 processes.
+50 steps, 1024000 rats, 2.138 seconds
+Run #3:Running 'mpirun -np 9 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtA.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 150400 edges, and 256 regions, partitioned into 9 zones 
+Loaded 1024000 rats
+Running with 9 processes.
+50 steps, 1024000 rats, 2.157 seconds
+Run #1:Running 'mpirun -np 9 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtA.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 150400 edges, and 256 regions, partitioned into 9 zones 
+Loaded 1024000 rats
+Running with 9 processes.
+50 steps, 1024000 rats, 2.020 seconds
+Run #2:Running 'mpirun -np 9 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtA.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 150400 edges, and 256 regions, partitioned into 9 zones 
+Loaded 1024000 rats
+Running with 9 processes.
+50 steps, 1024000 rats, 2.089 seconds
+Run #3:Running 'mpirun -np 9 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtA.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 150400 edges, and 256 regions, partitioned into 9 zones 
+Loaded 1024000 rats
+Running with 9 processes.
+50 steps, 1024000 rats, 2.145 seconds
++++++++++++++++++ Benchmark hlbrtBx09-step050-seed618.txt
+Run #1:Running 'mpirun -np 9 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtB.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 193834 edges, and 100 regions, partitioned into 9 zones 
+Loaded 1024000 rats
+Running with 9 processes.
+50 steps, 1024000 rats, 2.568 seconds
+Run #2:Running 'mpirun -np 9 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtB.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 193834 edges, and 100 regions, partitioned into 9 zones 
+Loaded 1024000 rats
+Running with 9 processes.
+50 steps, 1024000 rats, 2.600 seconds
+Run #3:Running 'mpirun -np 9 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtB.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 193834 edges, and 100 regions, partitioned into 9 zones 
+Loaded 1024000 rats
+Running with 9 processes.
+50 steps, 1024000 rats, 2.589 seconds
+Run #1:Running 'mpirun -np 9 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtB.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 193834 edges, and 100 regions, partitioned into 9 zones 
+Loaded 1024000 rats
+Running with 9 processes.
+50 steps, 1024000 rats, 2.360 seconds
+Run #2:Running 'mpirun -np 9 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtB.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 193834 edges, and 100 regions, partitioned into 9 zones 
+Loaded 1024000 rats
+Running with 9 processes.
+50 steps, 1024000 rats, 2.413 seconds
+Run #3:Running 'mpirun -np 9 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtB.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 193834 edges, and 100 regions, partitioned into 9 zones 
+Loaded 1024000 rats
+Running with 9 processes.
+50 steps, 1024000 rats, 2.392 seconds
++++++++++++++++++ Benchmark hlbrtCx09-step050-seed618.txt
+Run #1:Running 'mpirun -np 9 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtC.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 203606 edges, and 150 regions, partitioned into 9 zones 
+Loaded 1024000 rats
+Running with 9 processes.
+50 steps, 1024000 rats, 2.582 seconds
+Run #2:Running 'mpirun -np 9 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtC.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 203606 edges, and 150 regions, partitioned into 9 zones 
+Loaded 1024000 rats
+Running with 9 processes.
+50 steps, 1024000 rats, 2.585 seconds
+Run #3:Running 'mpirun -np 9 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtC.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 203606 edges, and 150 regions, partitioned into 9 zones 
+Loaded 1024000 rats
+Running with 9 processes.
+50 steps, 1024000 rats, 2.601 seconds
+Run #1:Running 'mpirun -np 9 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtC.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 203606 edges, and 150 regions, partitioned into 9 zones 
+Loaded 1024000 rats
+Running with 9 processes.
+50 steps, 1024000 rats, 2.399 seconds
+Run #2:Running 'mpirun -np 9 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtC.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 203606 edges, and 150 regions, partitioned into 9 zones 
+Loaded 1024000 rats
+Running with 9 processes.
+50 steps, 1024000 rats, 2.420 seconds
+Run #3:Running 'mpirun -np 9 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtC.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 203606 edges, and 150 regions, partitioned into 9 zones 
+Loaded 1024000 rats
+Running with 9 processes.
+50 steps, 1024000 rats, 2.397 seconds
++++++++++++++++++ Benchmark hlbrtDx09-step050-seed618.txt
+Run #1:Running 'mpirun -np 9 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtD.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 193572 edges, and 80 regions, partitioned into 9 zones 
+Loaded 1024000 rats
+Running with 9 processes.
+50 steps, 1024000 rats, 2.484 seconds
+Run #2:Running 'mpirun -np 9 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtD.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 193572 edges, and 80 regions, partitioned into 9 zones 
+Loaded 1024000 rats
+Running with 9 processes.
+50 steps, 1024000 rats, 2.509 seconds
+Run #3:Running 'mpirun -np 9 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtD.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 193572 edges, and 80 regions, partitioned into 9 zones 
+Loaded 1024000 rats
+Running with 9 processes.
+50 steps, 1024000 rats, 2.511 seconds
+Run #1:Running 'mpirun -np 9 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtD.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 193572 edges, and 80 regions, partitioned into 9 zones 
+Loaded 1024000 rats
+Running with 9 processes.
+50 steps, 1024000 rats, 2.481 seconds
+Run #2:Running 'mpirun -np 9 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtD.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 193572 edges, and 80 regions, partitioned into 9 zones 
+Loaded 1024000 rats
+Running with 9 processes.
+50 steps, 1024000 rats, 2.572 seconds
+Run #3:Running 'mpirun -np 9 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtD.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 193572 edges, and 80 regions, partitioned into 9 zones 
+Loaded 1024000 rats
+Running with 9 processes.
+50 steps, 1024000 rats, 2.422 seconds
++++++++++++++++++ Benchmark hlbrtEx09-step050-seed618.txt
+Run #1:Running 'mpirun -np 9 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtE.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 199188 edges, and 74 regions, partitioned into 9 zones 
+Loaded 1024000 rats
+Running with 9 processes.
+50 steps, 1024000 rats, 2.571 seconds
+Run #2:Running 'mpirun -np 9 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtE.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 199188 edges, and 74 regions, partitioned into 9 zones 
+Loaded 1024000 rats
+Running with 9 processes.
+50 steps, 1024000 rats, 2.585 seconds
+Run #3:Running 'mpirun -np 9 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtE.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 199188 edges, and 74 regions, partitioned into 9 zones 
+Loaded 1024000 rats
+Running with 9 processes.
+50 steps, 1024000 rats, 2.538 seconds
+Run #1:Running 'mpirun -np 9 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtE.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 199188 edges, and 74 regions, partitioned into 9 zones 
+Loaded 1024000 rats
+Running with 9 processes.
+50 steps, 1024000 rats, 2.518 seconds
+Run #2:Running 'mpirun -np 9 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtE.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 199188 edges, and 74 regions, partitioned into 9 zones 
+Loaded 1024000 rats
+Running with 9 processes.
+50 steps, 1024000 rats, 2.490 seconds
+Run #3:Running 'mpirun -np 9 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtE.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 199188 edges, and 74 regions, partitioned into 9 zones 
+Loaded 1024000 rats
+Running with 9 processes.
+50 steps, 1024000 rats, 2.485 seconds
++++++++++++++++++ Benchmark hlbrtFx09-step050-seed618.txt
+Run #1:Running 'mpirun -np 9 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtF.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 192370 edges, and 61 regions, partitioned into 9 zones 
+Loaded 1024000 rats
+Running with 9 processes.
+50 steps, 1024000 rats, 2.640 seconds
+Run #2:Running 'mpirun -np 9 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtF.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 192370 edges, and 61 regions, partitioned into 9 zones 
+Loaded 1024000 rats
+Running with 9 processes.
+50 steps, 1024000 rats, 2.618 seconds
+Run #3:Running 'mpirun -np 9 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtF.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 192370 edges, and 61 regions, partitioned into 9 zones 
+Loaded 1024000 rats
+Running with 9 processes.
+50 steps, 1024000 rats, 2.643 seconds
+Run #1:Running 'mpirun -np 9 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtF.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 192370 edges, and 61 regions, partitioned into 9 zones 
+Loaded 1024000 rats
+Running with 9 processes.
+50 steps, 1024000 rats, 2.396 seconds
+Run #2:Running 'mpirun -np 9 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtF.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 192370 edges, and 61 regions, partitioned into 9 zones 
+Loaded 1024000 rats
+Running with 9 processes.
+50 steps, 1024000 rats, 2.439 seconds
+Run #3:Running 'mpirun -np 9 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtF.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 192370 edges, and 61 regions, partitioned into 9 zones 
+Loaded 1024000 rats
+Running with 9 processes.
+50 steps, 1024000 rats, 2.432 seconds
++++++++++++++++++
+Name	steps	procs	secs	NPM	BNPM	Ratio	Pts
+hlbrtA	50	9	3.5	67.9	65.3	0.96	8.0
+hlbrtB	50	9	3.9	76.2	71.9	0.94	8.0
+hlbrtC	50	9	3.9	76.5	72.7	0.95	8.0
+hlbrtD	50	9	3.8	74.5	73.1	0.98	8.0
+hlbrtE	50	9	3.9	75.7	74.4	0.98	8.0
+hlbrtF	50	9	4.0	77.2	72.5	0.94	8.0
+AVG:				74.7	71.6
+TOTAL:							48.0
+Test time for 9 processes = 136.6 secs.
++++++++++++++++++ Benchmark hlbrtAx10-step050-seed618.txt
+Run #1:Running 'mpirun -np 10 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtA.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 150400 edges, and 256 regions, partitioned into 10 zones 
+Loaded 1024000 rats
+Running with 10 processes.
+50 steps, 1024000 rats, 2.070 seconds
+Run #2:Running 'mpirun -np 10 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtA.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 150400 edges, and 256 regions, partitioned into 10 zones 
+Loaded 1024000 rats
+Running with 10 processes.
+50 steps, 1024000 rats, 2.318 seconds
+Run #3:Running 'mpirun -np 10 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtA.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 150400 edges, and 256 regions, partitioned into 10 zones 
+Loaded 1024000 rats
+Running with 10 processes.
+50 steps, 1024000 rats, 2.051 seconds
+Run #1:Running 'mpirun -np 10 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtA.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 150400 edges, and 256 regions, partitioned into 10 zones 
+Loaded 1024000 rats
+Running with 10 processes.
+50 steps, 1024000 rats, 1.930 seconds
+Run #2:Running 'mpirun -np 10 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtA.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 150400 edges, and 256 regions, partitioned into 10 zones 
+Loaded 1024000 rats
+Running with 10 processes.
+50 steps, 1024000 rats, 1.948 seconds
+Run #3:Running 'mpirun -np 10 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtA.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 150400 edges, and 256 regions, partitioned into 10 zones 
+Loaded 1024000 rats
+Running with 10 processes.
+50 steps, 1024000 rats, 1.935 seconds
++++++++++++++++++ Benchmark hlbrtBx10-step050-seed618.txt
+Run #1:Running 'mpirun -np 10 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtB.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 193834 edges, and 100 regions, partitioned into 10 zones 
+Loaded 1024000 rats
+Running with 10 processes.
+50 steps, 1024000 rats, 2.381 seconds
+Run #2:Running 'mpirun -np 10 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtB.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 193834 edges, and 100 regions, partitioned into 10 zones 
+Loaded 1024000 rats
+Running with 10 processes.
+50 steps, 1024000 rats, 2.338 seconds
+Run #3:Running 'mpirun -np 10 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtB.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 193834 edges, and 100 regions, partitioned into 10 zones 
+Loaded 1024000 rats
+Running with 10 processes.
+50 steps, 1024000 rats, 2.325 seconds
+Run #1:Running 'mpirun -np 10 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtB.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 193834 edges, and 100 regions, partitioned into 10 zones 
+Loaded 1024000 rats
+Running with 10 processes.
+50 steps, 1024000 rats, 2.246 seconds
+Run #2:Running 'mpirun -np 10 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtB.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 193834 edges, and 100 regions, partitioned into 10 zones 
+Loaded 1024000 rats
+Running with 10 processes.
+50 steps, 1024000 rats, 2.142 seconds
+Run #3:Running 'mpirun -np 10 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtB.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 193834 edges, and 100 regions, partitioned into 10 zones 
+Loaded 1024000 rats
+Running with 10 processes.
+50 steps, 1024000 rats, 2.135 seconds
++++++++++++++++++ Benchmark hlbrtCx10-step050-seed618.txt
+Run #1:Running 'mpirun -np 10 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtC.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 203606 edges, and 150 regions, partitioned into 10 zones 
+Loaded 1024000 rats
+Running with 10 processes.
+50 steps, 1024000 rats, 2.415 seconds
+Run #2:Running 'mpirun -np 10 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtC.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 203606 edges, and 150 regions, partitioned into 10 zones 
+Loaded 1024000 rats
+Running with 10 processes.
+50 steps, 1024000 rats, 2.416 seconds
+Run #3:Running 'mpirun -np 10 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtC.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 203606 edges, and 150 regions, partitioned into 10 zones 
+Loaded 1024000 rats
+Running with 10 processes.
+50 steps, 1024000 rats, 2.432 seconds
+Run #1:Running 'mpirun -np 10 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtC.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 203606 edges, and 150 regions, partitioned into 10 zones 
+Loaded 1024000 rats
+Running with 10 processes.
+50 steps, 1024000 rats, 2.280 seconds
+Run #2:Running 'mpirun -np 10 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtC.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 203606 edges, and 150 regions, partitioned into 10 zones 
+Loaded 1024000 rats
+Running with 10 processes.
+50 steps, 1024000 rats, 2.226 seconds
+Run #3:Running 'mpirun -np 10 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtC.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 203606 edges, and 150 regions, partitioned into 10 zones 
+Loaded 1024000 rats
+Running with 10 processes.
+50 steps, 1024000 rats, 2.341 seconds
++++++++++++++++++ Benchmark hlbrtDx10-step050-seed618.txt
+Run #1:Running 'mpirun -np 10 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtD.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 193572 edges, and 80 regions, partitioned into 10 zones 
+Loaded 1024000 rats
+Running with 10 processes.
+50 steps, 1024000 rats, 2.334 seconds
+Run #2:Running 'mpirun -np 10 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtD.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 193572 edges, and 80 regions, partitioned into 10 zones 
+Loaded 1024000 rats
+Running with 10 processes.
+50 steps, 1024000 rats, 2.313 seconds
+Run #3:Running 'mpirun -np 10 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtD.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 193572 edges, and 80 regions, partitioned into 10 zones 
+Loaded 1024000 rats
+Running with 10 processes.
+50 steps, 1024000 rats, 2.354 seconds
+Run #1:Running 'mpirun -np 10 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtD.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 193572 edges, and 80 regions, partitioned into 10 zones 
+Loaded 1024000 rats
+Running with 10 processes.
+50 steps, 1024000 rats, 2.216 seconds
+Run #2:Running 'mpirun -np 10 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtD.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 193572 edges, and 80 regions, partitioned into 10 zones 
+Loaded 1024000 rats
+Running with 10 processes.
+50 steps, 1024000 rats, 2.214 seconds
+Run #3:Running 'mpirun -np 10 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtD.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 193572 edges, and 80 regions, partitioned into 10 zones 
+Loaded 1024000 rats
+Running with 10 processes.
+50 steps, 1024000 rats, 2.202 seconds
++++++++++++++++++ Benchmark hlbrtEx10-step050-seed618.txt
+Run #1:Running 'mpirun -np 10 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtE.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 199188 edges, and 74 regions, partitioned into 10 zones 
+Loaded 1024000 rats
+Running with 10 processes.
+50 steps, 1024000 rats, 2.385 seconds
+Run #2:Running 'mpirun -np 10 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtE.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 199188 edges, and 74 regions, partitioned into 10 zones 
+Loaded 1024000 rats
+Running with 10 processes.
+50 steps, 1024000 rats, 2.430 seconds
+Run #3:Running 'mpirun -np 10 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtE.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 199188 edges, and 74 regions, partitioned into 10 zones 
+Loaded 1024000 rats
+Running with 10 processes.
+50 steps, 1024000 rats, 2.369 seconds
+Run #1:Running 'mpirun -np 10 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtE.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 199188 edges, and 74 regions, partitioned into 10 zones 
+Loaded 1024000 rats
+Running with 10 processes.
+50 steps, 1024000 rats, 2.237 seconds
+Run #2:Running 'mpirun -np 10 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtE.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 199188 edges, and 74 regions, partitioned into 10 zones 
+Loaded 1024000 rats
+Running with 10 processes.
+50 steps, 1024000 rats, 2.295 seconds
+Run #3:Running 'mpirun -np 10 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtE.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 199188 edges, and 74 regions, partitioned into 10 zones 
+Loaded 1024000 rats
+Running with 10 processes.
+50 steps, 1024000 rats, 2.251 seconds
++++++++++++++++++ Benchmark hlbrtFx10-step050-seed618.txt
+Run #1:Running 'mpirun -np 10 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtF.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 192370 edges, and 61 regions, partitioned into 10 zones 
+Loaded 1024000 rats
+Running with 10 processes.
+50 steps, 1024000 rats, 2.362 seconds
+Run #2:Running 'mpirun -np 10 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtF.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 192370 edges, and 61 regions, partitioned into 10 zones 
+Loaded 1024000 rats
+Running with 10 processes.
+50 steps, 1024000 rats, 2.409 seconds
+Run #3:Running 'mpirun -np 10 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtF.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 192370 edges, and 61 regions, partitioned into 10 zones 
+Loaded 1024000 rats
+Running with 10 processes.
+50 steps, 1024000 rats, 2.440 seconds
+Run #1:Running 'mpirun -np 10 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtF.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 192370 edges, and 61 regions, partitioned into 10 zones 
+Loaded 1024000 rats
+Running with 10 processes.
+50 steps, 1024000 rats, 2.262 seconds
+Run #2:Running 'mpirun -np 10 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtF.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 192370 edges, and 61 regions, partitioned into 10 zones 
+Loaded 1024000 rats
+Running with 10 processes.
+50 steps, 1024000 rats, 2.174 seconds
+Run #3:Running 'mpirun -np 10 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtF.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 192370 edges, and 61 regions, partitioned into 10 zones 
+Loaded 1024000 rats
+Running with 10 processes.
+50 steps, 1024000 rats, 2.248 seconds
++++++++++++++++++
+Name	steps	procs	secs	NPM	BNPM	Ratio	Pts
+hlbrtA	50	10	3.4	66.3	63.7	0.96	8.0
+hlbrtB	50	10	3.7	71.5	67.6	0.95	8.0
+hlbrtC	50	10	3.8	73.4	69.5	0.95	8.0
+hlbrtD	50	10	3.7	71.3	68.9	0.97	8.0
+hlbrtE	50	10	3.7	72.4	69.6	0.96	8.0
+hlbrtF	50	10	3.7	72.1	68.5	0.95	8.0
+AVG:				71.2	68.0
+TOTAL:							48.0
+Test time for 10 processes = 130.1 secs.
++++++++++++++++++ Benchmark hlbrtAx11-step050-seed618.txt
+Run #1:Running 'mpirun -np 11 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtA.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 150400 edges, and 256 regions, partitioned into 11 zones 
+Loaded 1024000 rats
+Running with 11 processes.
+50 steps, 1024000 rats, 1.874 seconds
+Run #2:Running 'mpirun -np 11 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtA.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 150400 edges, and 256 regions, partitioned into 11 zones 
+Loaded 1024000 rats
+Running with 11 processes.
+50 steps, 1024000 rats, 1.877 seconds
+Run #3:Running 'mpirun -np 11 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtA.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 150400 edges, and 256 regions, partitioned into 11 zones 
+Loaded 1024000 rats
+Running with 11 processes.
+50 steps, 1024000 rats, 1.881 seconds
+Run #1:Running 'mpirun -np 11 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtA.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 150400 edges, and 256 regions, partitioned into 11 zones 
+Loaded 1024000 rats
+Running with 11 processes.
+50 steps, 1024000 rats, 1.782 seconds
+Run #2:Running 'mpirun -np 11 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtA.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 150400 edges, and 256 regions, partitioned into 11 zones 
+Loaded 1024000 rats
+Running with 11 processes.
+50 steps, 1024000 rats, 1.783 seconds
+Run #3:Running 'mpirun -np 11 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtA.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 150400 edges, and 256 regions, partitioned into 11 zones 
+Loaded 1024000 rats
+Running with 11 processes.
+50 steps, 1024000 rats, 1.757 seconds
++++++++++++++++++ Benchmark hlbrtBx11-step050-seed618.txt
+Run #1:Running 'mpirun -np 11 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtB.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 193834 edges, and 100 regions, partitioned into 11 zones 
+Loaded 1024000 rats
+Running with 11 processes.
+50 steps, 1024000 rats, 2.232 seconds
+Run #2:Running 'mpirun -np 11 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtB.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 193834 edges, and 100 regions, partitioned into 11 zones 
+Loaded 1024000 rats
+Running with 11 processes.
+50 steps, 1024000 rats, 2.179 seconds
+Run #3:Running 'mpirun -np 11 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtB.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 193834 edges, and 100 regions, partitioned into 11 zones 
+Loaded 1024000 rats
+Running with 11 processes.
+50 steps, 1024000 rats, 2.210 seconds
+Run #1:Running 'mpirun -np 11 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtB.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 193834 edges, and 100 regions, partitioned into 11 zones 
+Loaded 1024000 rats
+Running with 11 processes.
+50 steps, 1024000 rats, 2.047 seconds
+Run #2:Running 'mpirun -np 11 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtB.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 193834 edges, and 100 regions, partitioned into 11 zones 
+Loaded 1024000 rats
+Running with 11 processes.
+50 steps, 1024000 rats, 2.058 seconds
+Run #3:Running 'mpirun -np 11 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtB.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 193834 edges, and 100 regions, partitioned into 11 zones 
+Loaded 1024000 rats
+Running with 11 processes.
+50 steps, 1024000 rats, 2.038 seconds
++++++++++++++++++ Benchmark hlbrtCx11-step050-seed618.txt
+Run #1:Running 'mpirun -np 11 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtC.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 203606 edges, and 150 regions, partitioned into 11 zones 
+Loaded 1024000 rats
+Running with 11 processes.
+50 steps, 1024000 rats, 2.269 seconds
+Run #2:Running 'mpirun -np 11 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtC.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 203606 edges, and 150 regions, partitioned into 11 zones 
+Loaded 1024000 rats
+Running with 11 processes.
+50 steps, 1024000 rats, 2.284 seconds
+Run #3:Running 'mpirun -np 11 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtC.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 203606 edges, and 150 regions, partitioned into 11 zones 
+Loaded 1024000 rats
+Running with 11 processes.
+50 steps, 1024000 rats, 2.269 seconds
+Run #1:Running 'mpirun -np 11 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtC.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 203606 edges, and 150 regions, partitioned into 11 zones 
+Loaded 1024000 rats
+Running with 11 processes.
+50 steps, 1024000 rats, 2.167 seconds
+Run #2:Running 'mpirun -np 11 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtC.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 203606 edges, and 150 regions, partitioned into 11 zones 
+Loaded 1024000 rats
+Running with 11 processes.
+50 steps, 1024000 rats, 2.063 seconds
+Run #3:Running 'mpirun -np 11 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtC.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 203606 edges, and 150 regions, partitioned into 11 zones 
+Loaded 1024000 rats
+Running with 11 processes.
+50 steps, 1024000 rats, 2.063 seconds
++++++++++++++++++ Benchmark hlbrtDx11-step050-seed618.txt
+Run #1:Running 'mpirun -np 11 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtD.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 193572 edges, and 80 regions, partitioned into 11 zones 
+Loaded 1024000 rats
+Running with 11 processes.
+50 steps, 1024000 rats, 2.181 seconds
+Run #2:Running 'mpirun -np 11 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtD.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 193572 edges, and 80 regions, partitioned into 11 zones 
+Loaded 1024000 rats
+Running with 11 processes.
+50 steps, 1024000 rats, 2.207 seconds
+Run #3:Running 'mpirun -np 11 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtD.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 193572 edges, and 80 regions, partitioned into 11 zones 
+Loaded 1024000 rats
+Running with 11 processes.
+50 steps, 1024000 rats, 2.171 seconds
+Run #1:Running 'mpirun -np 11 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtD.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 193572 edges, and 80 regions, partitioned into 11 zones 
+Loaded 1024000 rats
+Running with 11 processes.
+50 steps, 1024000 rats, 2.027 seconds
+Run #2:Running 'mpirun -np 11 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtD.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 193572 edges, and 80 regions, partitioned into 11 zones 
+Loaded 1024000 rats
+Running with 11 processes.
+50 steps, 1024000 rats, 2.018 seconds
+Run #3:Running 'mpirun -np 11 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtD.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 193572 edges, and 80 regions, partitioned into 11 zones 
+Loaded 1024000 rats
+Running with 11 processes.
+50 steps, 1024000 rats, 2.056 seconds
++++++++++++++++++ Benchmark hlbrtEx11-step050-seed618.txt
+Run #1:Running 'mpirun -np 11 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtE.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 199188 edges, and 74 regions, partitioned into 11 zones 
+Loaded 1024000 rats
+Running with 11 processes.
+50 steps, 1024000 rats, 2.313 seconds
+Run #2:Running 'mpirun -np 11 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtE.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 199188 edges, and 74 regions, partitioned into 11 zones 
+Loaded 1024000 rats
+Running with 11 processes.
+50 steps, 1024000 rats, 2.250 seconds
+Run #3:Running 'mpirun -np 11 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtE.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 199188 edges, and 74 regions, partitioned into 11 zones 
+Loaded 1024000 rats
+Running with 11 processes.
+50 steps, 1024000 rats, 2.262 seconds
+Run #1:Running 'mpirun -np 11 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtE.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 199188 edges, and 74 regions, partitioned into 11 zones 
+Loaded 1024000 rats
+Running with 11 processes.
+50 steps, 1024000 rats, 2.048 seconds
+Run #2:Running 'mpirun -np 11 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtE.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 199188 edges, and 74 regions, partitioned into 11 zones 
+Loaded 1024000 rats
+Running with 11 processes.
+50 steps, 1024000 rats, 2.083 seconds
+Run #3:Running 'mpirun -np 11 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtE.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 199188 edges, and 74 regions, partitioned into 11 zones 
+Loaded 1024000 rats
+Running with 11 processes.
+50 steps, 1024000 rats, 2.109 seconds
++++++++++++++++++ Benchmark hlbrtFx11-step050-seed618.txt
+Run #1:Running 'mpirun -np 11 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtF.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 192370 edges, and 61 regions, partitioned into 11 zones 
+Loaded 1024000 rats
+Running with 11 processes.
+50 steps, 1024000 rats, 2.149 seconds
+Run #2:Running 'mpirun -np 11 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtF.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 192370 edges, and 61 regions, partitioned into 11 zones 
+Loaded 1024000 rats
+Running with 11 processes.
+50 steps, 1024000 rats, 2.203 seconds
+Run #3:Running 'mpirun -np 11 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtF.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 192370 edges, and 61 regions, partitioned into 11 zones 
+Loaded 1024000 rats
+Running with 11 processes.
+50 steps, 1024000 rats, 2.200 seconds
+Run #1:Running 'mpirun -np 11 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtF.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 192370 edges, and 61 regions, partitioned into 11 zones 
+Loaded 1024000 rats
+Running with 11 processes.
+50 steps, 1024000 rats, 2.079 seconds
+Run #2:Running 'mpirun -np 11 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtF.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 192370 edges, and 61 regions, partitioned into 11 zones 
+Loaded 1024000 rats
+Running with 11 processes.
+50 steps, 1024000 rats, 2.040 seconds
+Run #3:Running 'mpirun -np 11 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtF.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 192370 edges, and 61 regions, partitioned into 11 zones 
+Loaded 1024000 rats
+Running with 11 processes.
+50 steps, 1024000 rats, 2.040 seconds
++++++++++++++++++
+Name	steps	procs	secs	NPM	BNPM	Ratio	Pts
+hlbrtA	50	11	3.2	63.0	60.6	0.96	8.0
+hlbrtB	50	11	3.5	68.8	65.8	0.96	8.0
+hlbrtC	50	11	3.6	70.6	66.4	0.94	8.0
+hlbrtD	50	11	3.5	68.6	65.3	0.95	8.0
+hlbrtE	50	11	3.6	70.3	65.9	0.94	8.0
+hlbrtF	50	11	3.5	68.1	65.8	0.97	8.0
+AVG:				68.2	65.0
+TOTAL:							48.0
+Test time for 11 processes = 124.1 secs.
++++++++++++++++++ Benchmark hlbrtAx12-step050-seed618.txt
+Run #1:Running 'mpirun -np 12 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtA.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 150400 edges, and 256 regions, partitioned into 12 zones 
+Loaded 1024000 rats
+Running with 12 processes.
+50 steps, 1024000 rats, 1.826 seconds
+Run #2:Running 'mpirun -np 12 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtA.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 150400 edges, and 256 regions, partitioned into 12 zones 
+Loaded 1024000 rats
+Running with 12 processes.
+50 steps, 1024000 rats, 1.833 seconds
+Run #3:Running 'mpirun -np 12 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtA.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 150400 edges, and 256 regions, partitioned into 12 zones 
+Loaded 1024000 rats
+Running with 12 processes.
+50 steps, 1024000 rats, 1.815 seconds
+Run #1:Running 'mpirun -np 12 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtA.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 150400 edges, and 256 regions, partitioned into 12 zones 
+Loaded 1024000 rats
+Running with 12 processes.
+50 steps, 1024000 rats, 1.629 seconds
+Run #2:Running 'mpirun -np 12 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtA.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 150400 edges, and 256 regions, partitioned into 12 zones 
+Loaded 1024000 rats
+Running with 12 processes.
+50 steps, 1024000 rats, 1.644 seconds
+Run #3:Running 'mpirun -np 12 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtA.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 150400 edges, and 256 regions, partitioned into 12 zones 
+Loaded 1024000 rats
+Running with 12 processes.
+50 steps, 1024000 rats, 1.701 seconds
++++++++++++++++++ Benchmark hlbrtBx12-step050-seed618.txt
+Run #1:Running 'mpirun -np 12 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtB.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 193834 edges, and 100 regions, partitioned into 12 zones 
+Loaded 1024000 rats
+Running with 12 processes.
+50 steps, 1024000 rats, 2.014 seconds
+Run #2:Running 'mpirun -np 12 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtB.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 193834 edges, and 100 regions, partitioned into 12 zones 
+Loaded 1024000 rats
+Running with 12 processes.
+50 steps, 1024000 rats, 2.062 seconds
+Run #3:Running 'mpirun -np 12 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtB.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 193834 edges, and 100 regions, partitioned into 12 zones 
+Loaded 1024000 rats
+Running with 12 processes.
+50 steps, 1024000 rats, 2.083 seconds
+Run #1:Running 'mpirun -np 12 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtB.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 193834 edges, and 100 regions, partitioned into 12 zones 
+Loaded 1024000 rats
+Running with 12 processes.
+50 steps, 1024000 rats, 1.860 seconds
+Run #2:Running 'mpirun -np 12 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtB.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 193834 edges, and 100 regions, partitioned into 12 zones 
+Loaded 1024000 rats
+Running with 12 processes.
+50 steps, 1024000 rats, 1.859 seconds
+Run #3:Running 'mpirun -np 12 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtB.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 193834 edges, and 100 regions, partitioned into 12 zones 
+Loaded 1024000 rats
+Running with 12 processes.
+50 steps, 1024000 rats, 1.921 seconds
++++++++++++++++++ Benchmark hlbrtCx12-step050-seed618.txt
+Run #1:Running 'mpirun -np 12 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtC.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 203606 edges, and 150 regions, partitioned into 12 zones 
+Loaded 1024000 rats
+Running with 12 processes.
+50 steps, 1024000 rats, 2.074 seconds
+Run #2:Running 'mpirun -np 12 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtC.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 203606 edges, and 150 regions, partitioned into 12 zones 
+Loaded 1024000 rats
+Running with 12 processes.
+50 steps, 1024000 rats, 2.074 seconds
+Run #3:Running 'mpirun -np 12 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtC.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 203606 edges, and 150 regions, partitioned into 12 zones 
+Loaded 1024000 rats
+Running with 12 processes.
+50 steps, 1024000 rats, 2.114 seconds
+Run #1:Running 'mpirun -np 12 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtC.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 203606 edges, and 150 regions, partitioned into 12 zones 
+Loaded 1024000 rats
+Running with 12 processes.
+50 steps, 1024000 rats, 1.886 seconds
+Run #2:Running 'mpirun -np 12 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtC.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 203606 edges, and 150 regions, partitioned into 12 zones 
+Loaded 1024000 rats
+Running with 12 processes.
+50 steps, 1024000 rats, 1.886 seconds
+Run #3:Running 'mpirun -np 12 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtC.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 203606 edges, and 150 regions, partitioned into 12 zones 
+Loaded 1024000 rats
+Running with 12 processes.
+50 steps, 1024000 rats, 1.903 seconds
++++++++++++++++++ Benchmark hlbrtDx12-step050-seed618.txt
+Run #1:Running 'mpirun -np 12 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtD.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 193572 edges, and 80 regions, partitioned into 12 zones 
+Loaded 1024000 rats
+Running with 12 processes.
+50 steps, 1024000 rats, 2.100 seconds
+Run #2:Running 'mpirun -np 12 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtD.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 193572 edges, and 80 regions, partitioned into 12 zones 
+Loaded 1024000 rats
+Running with 12 processes.
+50 steps, 1024000 rats, 2.100 seconds
+Run #3:Running 'mpirun -np 12 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtD.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 193572 edges, and 80 regions, partitioned into 12 zones 
+Loaded 1024000 rats
+Running with 12 processes.
+50 steps, 1024000 rats, 2.059 seconds
+Run #1:Running 'mpirun -np 12 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtD.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 193572 edges, and 80 regions, partitioned into 12 zones 
+Loaded 1024000 rats
+Running with 12 processes.
+50 steps, 1024000 rats, 1.955 seconds
+Run #2:Running 'mpirun -np 12 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtD.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 193572 edges, and 80 regions, partitioned into 12 zones 
+Loaded 1024000 rats
+Running with 12 processes.
+50 steps, 1024000 rats, 1.956 seconds
+Run #3:Running 'mpirun -np 12 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtD.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 193572 edges, and 80 regions, partitioned into 12 zones 
+Loaded 1024000 rats
+Running with 12 processes.
+50 steps, 1024000 rats, 1.945 seconds
++++++++++++++++++ Benchmark hlbrtEx12-step050-seed618.txt
+Run #1:Running 'mpirun -np 12 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtE.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 199188 edges, and 74 regions, partitioned into 12 zones 
+Loaded 1024000 rats
+Running with 12 processes.
+50 steps, 1024000 rats, 2.177 seconds
+Run #2:Running 'mpirun -np 12 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtE.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 199188 edges, and 74 regions, partitioned into 12 zones 
+Loaded 1024000 rats
+Running with 12 processes.
+50 steps, 1024000 rats, 2.217 seconds
+Run #3:Running 'mpirun -np 12 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtE.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 199188 edges, and 74 regions, partitioned into 12 zones 
+Loaded 1024000 rats
+Running with 12 processes.
+50 steps, 1024000 rats, 2.206 seconds
+Run #1:Running 'mpirun -np 12 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtE.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 199188 edges, and 74 regions, partitioned into 12 zones 
+Loaded 1024000 rats
+Running with 12 processes.
+50 steps, 1024000 rats, 2.037 seconds
+Run #2:Running 'mpirun -np 12 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtE.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 199188 edges, and 74 regions, partitioned into 12 zones 
+Loaded 1024000 rats
+Running with 12 processes.
+50 steps, 1024000 rats, 1.962 seconds
+Run #3:Running 'mpirun -np 12 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtE.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 199188 edges, and 74 regions, partitioned into 12 zones 
+Loaded 1024000 rats
+Running with 12 processes.
+50 steps, 1024000 rats, 1.946 seconds
++++++++++++++++++ Benchmark hlbrtFx12-step050-seed618.txt
+Run #1:Running 'mpirun -np 12 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtF.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 192370 edges, and 61 regions, partitioned into 12 zones 
+Loaded 1024000 rats
+Running with 12 processes.
+50 steps, 1024000 rats, 2.004 seconds
+Run #2:Running 'mpirun -np 12 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtF.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 192370 edges, and 61 regions, partitioned into 12 zones 
+Loaded 1024000 rats
+Running with 12 processes.
+50 steps, 1024000 rats, 2.017 seconds
+Run #3:Running 'mpirun -np 12 -bycore -bind-to-core ./crun-mpi -g ./data/g-160x160-hlbrtF.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 192370 edges, and 61 regions, partitioned into 12 zones 
+Loaded 1024000 rats
+Running with 12 processes.
+50 steps, 1024000 rats, 2.090 seconds
+Run #1:Running 'mpirun -np 12 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtF.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 192370 edges, and 61 regions, partitioned into 12 zones 
+Loaded 1024000 rats
+Running with 12 processes.
+50 steps, 1024000 rats, 1.920 seconds
+Run #2:Running 'mpirun -np 12 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtF.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 192370 edges, and 61 regions, partitioned into 12 zones 
+Loaded 1024000 rats
+Running with 12 processes.
+50 steps, 1024000 rats, 1.939 seconds
+Run #3:Running 'mpirun -np 12 -bycore -bind-to-core ./crun-soln-latedays -g ./data/g-160x160-hlbrtF.gph -r ./data/r-160x160-r40.rats -n 50 -i 50'
+Loaded graph with 25600 nodes, 192370 edges, and 61 regions, partitioned into 12 zones 
+Loaded 1024000 rats
+Running with 12 processes.
+50 steps, 1024000 rats, 2.401 seconds
++++++++++++++++++
+Name	steps	procs	secs	NPM	BNPM	Ratio	Pts
+hlbrtA	50	12	3.2	62.1	58.1	0.94	8.0
+hlbrtB	50	12	3.4	66.4	62.3	0.94	8.0
+hlbrtC	50	12	3.4	67.0	63.0	0.94	8.0
+hlbrtD	50	12	3.4	66.6	64.0	0.96	8.0
+hlbrtE	50	12	3.5	68.8	64.1	0.93	8.0
+hlbrtF	50	12	3.3	65.4	63.5	0.97	8.0
+AVG:				66.1	62.5
+TOTAL:							48.0
+Test time for 12 processes = 120.4 secs.
+Overall test time = 2410.6 secs.

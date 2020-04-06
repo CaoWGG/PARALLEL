@@ -1,0 +1,85 @@
+# Generated Mon Mar  2 13:23:17 2020
+# Parameters: expansion = 1, ilf = (1.20,1.80)
+# Region tree structure
+# Nodes: 11
+# Leaves: 6
+# Width: 4
+# Height: 4
+# Fractal grid generated with initial seed: 4
+# 
+# Width Height Edges Regions
+4 4 52 6
+n 0 1.43611
+n 1 1.58035
+n 2 1.73144
+n 3 1.44067
+n 4 1.28426
+n 5 1.35268
+n 6 1.59483
+n 7 1.68231
+n 8 1.55499
+n 9 1.35334
+n 10 1.27970
+n 11 1.33586
+n 12 1.47088
+n 13 1.53907
+n 14 1.59300
+n 15 1.42689
+e 0 1
+e 0 4
+e 0 5
+e 1 0
+e 1 2
+e 1 5
+e 2 1
+e 2 3
+e 2 6
+e 2 7
+e 3 2
+e 3 7
+e 4 0
+e 4 5
+e 4 8
+e 5 0
+e 5 1
+e 5 4
+e 5 6
+e 5 9
+e 6 2
+e 6 5
+e 6 7
+e 6 10
+e 7 2
+e 7 3
+e 7 6
+e 7 11
+e 8 4
+e 8 9
+e 8 12
+e 9 5
+e 9 8
+e 9 10
+e 9 13
+e 10 6
+e 10 9
+e 10 11
+e 10 14
+e 11 7
+e 11 10
+e 11 15
+e 12 8
+e 12 13
+e 13 9
+e 13 12
+e 13 14
+e 14 10
+e 14 13
+e 14 15
+e 15 11
+e 15 14
+r 2 0 2 2
+r 0 0 2 2
+r 0 2 2 1
+r 0 3 2 1
+r 2 2 1 2
+r 3 2 1 2
